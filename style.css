@@ -1,0 +1,108 @@
+/* font family */
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.offer{
+    background-color: black;
+}
+
+/* top header section */
+.top-header-section{
+    background-color: #da9399;
+}
+
+/* navbar */
+.navbar{
+    border-bottom: 1px solid hsla(0,0%,100%,.3);
+}
+
+.get-disscount{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-disscount h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.get-disscount p{
+    font-weight: 700;
+}
+/* top quality section */
+.top-quality{
+    background-color: #ffebf3;
+    margin-top: 140px;
+}
+.top-quality img{
+    margin-top: -60px;
+}
+/* quiz button */
+.quiz-button{
+    border: none;
+    width: 250px;
+    padding: 16px 0px;
+    background-color: #ff408e;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.quiz-button:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+
+/* feelings mysterious-section */
+.mysterious-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* product section */
+.product-section{
+    background-color: #f9f9f9;
+}
+
+/* product-card */
+.card{
+    border: none;
+    box-shadow: 0 4px 32px rgba(62,18,35,.2);
+    z-index: 0;
+    transition: 0.3s all;
+}
+.card:hover{
+   box-shadow: 0px 15px 40px gray;
+}
+.plus-icon:hover{
+   color: #ff408e;
+   cursor: pointer;
+}
+
+/* view more button */
+.view-more{
+    text-align: center;
+}
+.view-more-button{
+    border: 1px solid #ff408e;
+    width: 350px;
+    padding: 16px 0px;
+    color: #ff408e;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.view-more-button:hover{
+    background-color: #ff408e;
+    color: white;
+}
+
+/* create account section */
+.create-account{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/female_dad7cd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
