@@ -2,6 +2,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .offer{
@@ -17,6 +19,34 @@ body{
 .navbar{
     border-bottom: 1px solid hsla(0,0%,100%,.3);
 }
+.men-women small{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* navbar offcanvas */
+ .btn-check:focus + .btn, .btn:focus{
+    box-shadow: none !important;
+}
+.offcanvas-text{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.offcanvas-text h3{
+    font-weight: 600;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.offcanvas-text h3:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .get-disscount{
     color: black;
@@ -106,3 +136,50 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* footer */
+.footer-bg{
+    background-color: black;
+}
+.footer-about p:hover{
+    color: #ff408e;
+    cursor: pointer;
+}
+
+/* footer socail icon */
+.social-icon svg{
+    width: 30px;
+}
+.social-icon svg:hover{
+    transition: 0.5s;
+    color: gray;
+    cursor: pointer;
+}
+
+/* footer input button  */
+.form-control{
+    height: 50px;
+}
+
+/*  */
+.product-item img{
+    width: 40px;
+    margin-left: 5px;
+}
+/* footer under line */
+.under-line hr{
+    border: 1px solid hsla(0,0%,100%,.3);
+}
+.footer-botom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-botom-text span{
+    margin-left: 15px;
+}
+.footer-botom-text span:hover{
+    transition: 0.5s;
+    color: gray;
+    cursor: pointer;
+}
+
