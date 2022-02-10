@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scentbird-Women</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./signup.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- login section start-->
+    <section>
+        <div class="container">
+            <!-- logo -->
+            <div class="mt-5">
+                <a class="navbar-brand" href="#">
+                    <img src="./images_2/black_6a7039.svg" alt="">
+                </a>
+            </div>
+            <!-- login form -->
+
+            <div class="login-form">
+
+                <div>
+                    <h2 class="fw-bold text-center mt-5">Create your account</h2>
+                    <div>
+                        <h5 class="text-center my-4">Select your gender</h5>
+                        <!-- male-female svg -->
+                        <!-- female svg -->
+                        <div class="text-center">
+                            <label class="_357jCs _2uKr9k" data-testid="femaleLabel" for="selectGender-female">
+                                <input type="radio" name="selectGender" id="selectGender-female"
+                                    class="_1MUPM5 radio-input-s d-none" value="female">
+                                <img class="JmsLsl"
+                                    src="//cdn.scentbird.com/assets/frontbird-site/images/female_4f9803.svg" alt=""
+                                    data-testid="genderImage">
+                                <div class="_2igmqi isg84H _3bJ-XK" data-testid="checkmarkIcon">
+
+                                    <svg class=" _2Gnxyw" draggable="false" width="12" height="10" viewBox="0 0 12 10"
+                                        fill="currentColor">
+                                        <path
+                                            d="M10.3334 0L9.54751 0.839504L4.07149 6.69071L2.42849 5.03587L1.619 4.22054L0 5.85121L0.809498 6.66654L3.28561 9.1605L4.11911 10L4.92861 9.13671L11.2141 2.42221L12 1.5827L10.3334 0Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                <div class="_3XS1At _3VMUf9 _3KO5kB text-center fw-bold">Female</div>
+                            </label>
+
+                            <!-- male svg -->
+                            <label class="_357jCs ms-5" data-testid="maleLabel" for="selectGender-male">
+                                <input type="radio" name="selectGender" class="_1MUPM5 radio-input-s  d-none"
+                                    value="male" id="selectGender-male"><img class="JmsLsl"
+                                    src="//cdn.scentbird.com/assets/frontbird-site/images/male_0e5555.svg" alt=""
+                                    data-testid="genderImage">
+                                <div class="_2igmqi isg84H _3bJ-XK" data-testid="checkmarkIcon">
+                                    <svg class=" _2Gnxyw" draggable="false" width="12" height="10" viewBox="0 0 12 10"
+                                        fill="currentColor">
+                                        <path
+                                            d="M10.3334 0L9.54751 0.839504L4.07149 6.69071L2.42849 5.03587L1.619 4.22054L0 5.85121L0.809498 6.66654L3.28561 9.1605L4.11911 10L4.92861 9.13671L11.2141 2.42221L12 1.5827L10.3334 0Z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                <div class="_3XS1At _3VMUf9 _3KO5kB text-center fw-bold">Male</div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- login form -->
+                    <div class="mt-4">
+
+                        <form action="">
+                            <!-- email input -->
+                            <div class="_2Wz4yb _2ZzUo2 _3dXgE-">
+                                <label for="emailRegister" class="_1MUPM5"></label><input id="emailRegister"
+                                    class="_3HQfIb _2VR5Oa form-control" type="email" placeholder="Email address"
+                                    tabindex="0" autocomplete="email" data-testid="emailField" data-recurly="email"
+                                    value="" required>
+                            </div>
+
+                            <div data-testid="emailFieldError" class="_10oYbc text-danger" aria-live="polite"
+                                role="region">Required
+                            </div>
+
+                            <!-- password input -->
+
+                            <div class="_2Wz4yb _2ZzUo2 _3dXgE-"><label for="passwordRegister"
+                                    class="_1MUPM5"></label><input id="passwordRegister"
+                                    class="_3HQfIb _2VR5Oa form-control" type="password" placeholder="Password"
+                                    tabindex="0" autocomplete="new-password" data-testid="passwordField"
+                                    data-recurly="password" value="" required>
+                            </div>
+
+                            <div data-testid="emailFieldError" class="_10oYbc text-danger" aria-live="polite"
+                                role="region">Required
+                            </div>
+                    </div>
+
+                    <!-- checkbox start-->
+                    <div class="my-3 text-center"><label class="_1t2zmy"><input class="_3zcqCj" type="checkbox"
+                                checked=""><span class="_1Xvd9r"></span>
+                            <div class="_3BcAEw _3SLe56 _2ezndk ms-2">Sign me up for updates from Scentbird</div>
+                        </label></div>
+                    <!-- checkbox end-->
+                    <div class="mt-2">
+                        <div class="oXvbwr _2ezndk qoZ0on text-secondary">By hitting the "Sign up" button,
+                            you agree to
+                            the
+                        </div>
+
+                        <a class="_1Y8L7H _1UgzoM SwrUP6 text-dark" href="/terms"
+                            rel="noopener noreferrer nofollow"><span>Terms and
+                                Conditions</span></a>
+
+                        <span class="small-text px-1"><small>and</small></span>
+
+                        <a class="_1Y8L7H _1UgzoM SwrUP6 text-dark" href="/privacy"
+                            rel="noopener noreferrer nofollow"><span>Privacy
+                                Policy</span></a>
+                    </div>
+                    <!-- submit input -->
+                    <div class="my-4">
+
+                        <input class="input-submit" type="submit" value="Sign up">
+                    </div>
+
+                    </form>
+                    <!-- form end -->
+
+                    <div class="text-center my-3">
+                        <span class="have-account"><small>Have an account?</small></span>
+                        <span class="small-text"><small>Log in</small></span>
+                    </div>
+
+                    <div class="fw-bold text-center text-secondary">or</div>
+
+                    <!-- social login button -->
+                    <div class="my-4">
+                        <!-- login facebook button -->
+                        <button class="social-login-btn">
+                            <div class="social-btn">
+                                <div>
+                                    <span>
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.97.93-1.97 1.89v2.26h3.33l-.53 3.5h-2.8V24C19.61 23.1 24 18.1 24 12.07z"
+                                                fill="#3579EA"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <span>Sign up with Facebook</span>
+                            </div>
+                        </button>
+
+                        <!--  login google button-->
+
+                        <button class="social-login-btn mt-3">
+                            <div class="social-btn">
+                                <div>
+                                    <span>
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.56 11.25C21.56 10.47 21.49 9.72001 21.36 9.00001H11V13.255H16.92C16.665 14.63 15.89 15.795 14.725 16.575V19.335H18.28C20.36 17.42 21.56 14.6 21.56 11.25Z"
+                                                fill="#4285F4"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11 22C13.97 22 16.46 21.015 18.28 19.335L14.725 16.575C13.74 17.235 12.48 17.625 11 17.625C8.13504 17.625 5.71004 15.69 4.84504 13.09H1.17004V15.94C2.98004 19.535 6.70004 22 11 22Z"
+                                                fill="#34A853"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.845 13.09C4.625 12.43 4.5 11.725 4.5 11C4.5 10.275 4.625 9.56999 4.845 8.90999V6.05999H1.17C0.425 7.54499 0 9.22499 0 11C0 12.775 0.425 14.455 1.17 15.94L4.845 13.09Z"
+                                                fill="#FBBC05"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11 4.375C12.615 4.375 14.065 4.93 15.205 6.02L18.36 2.865C16.455 1.09 13.965 0 11 0C6.70004 0 2.98004 2.465 1.17004 6.06L4.84504 8.91C5.71004 6.31 8.13504 4.375 11 4.375Z"
+                                                fill="#EA4335"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <span>Sign up with Google</span>
+                            </div>
+                        </button>
+
+                        <!-- login apple button -->
+                    </div>
+
+                    <div class="mt-3">
+                        <button class="login-apple-button">
+                            <div class="social-btn">
+                                <div>
+                                    <span>
+                                        <svg width="21" height="24" viewBox="0 0 21 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13.6345 3.89609C14.42 2.88573 15.0154 1.45768 14.8 0C13.5163 0.0889003 12.0159 0.907348 11.1404 1.97415C10.3423 2.94077 9.68635 4.37869 9.94252 5.77429C11.3459 5.81803 12.7942 4.97983 13.6345 3.89609ZM20.5706 17.6088C20.009 18.8563 19.7387 19.4137 19.0152 20.5186C18.006 22.0609 16.583 23.9814 14.8179 23.9956C13.2513 24.0125 12.8473 22.9725 10.7205 22.9852C8.5937 22.9965 8.15032 24.0153 6.58089 23.9998C4.81723 23.9843 3.46879 22.2514 2.45957 20.7091C-0.363989 16.3995 -0.660983 11.3407 1.08016 8.64967C2.31881 6.73902 4.2725 5.62141 6.10795 5.62141C7.97578 5.62141 9.15109 6.64871 10.698 6.64871C12.1985 6.64871 13.112 5.61859 15.2726 5.61859C16.9081 5.61859 18.6408 6.51183 19.8739 8.05277C15.8314 10.2739 16.4859 16.0609 20.5706 17.6088Z"
+                                                fill="#141414"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <span>Sign up with Apple</span>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="my-5 text-secondary text-center">
+                        <h4>© Scentbird</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+    <!-- login section end -->
+
+    <!--Bootstrap Scriptsheet  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
