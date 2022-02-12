@@ -1,0 +1,10 @@
+.carousel-slider-bg{
+    background-color: #ff408e;
+    color: white ;
+    font-weight: 600;
+}
+.indicators-button button{
+    border-radius: 100%;
+    width: 50px;
+    height: 12px;
+}
