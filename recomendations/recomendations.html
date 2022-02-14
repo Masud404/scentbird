@@ -141,13 +141,8 @@
         <!-- searchbar section end-->
 
         <!-- menubar -->
-        <nav class="navbar navbar-expand-lg border border-secondary navbar-light">
+        <nav class="navbar d-none d-md-block navbar-expand-lg border border-secondary navbar-light">
             <div class="container-fluid ms-4">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
 
@@ -309,20 +304,20 @@
                                 <div class="d-flex">
                                     <img src="./images/img-661.png" alt="">
                                     <p class="uppcoming-shipping-p mt-4"><span class="fw-bold" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">Carner Barcelona</span>
+                                            data-bs-target="#upcomming">Carner Barcelona</span>
                                         Rima
                                         XI</p>
 
-                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="upcomming" tabindex="-1"
                                         aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
+                                        <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                         aria-label="Close"></button>
                                                 </div>
 
-                                                <!-- modal-body -->
                                                 <div class="modal-body">
 
                                                     <div class="row g-3">
@@ -405,7 +400,7 @@
                                                                                 on-time</small></button>
                                                                     </div>
 
-                                                                    <div class="my -3">
+                                                                    <div class="my-5">
                                                                         <h6>MAIN NOTES</h6>
                                                                     </div>
 
@@ -449,6 +444,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
 
                             </div>
@@ -465,20 +461,20 @@
                                 <div class="d-flex mt-5">
                                     <img src="./images/img-661.png" alt="">
                                     <p class="uppcoming-shipping-p mt-4"><span class="fw-bold" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">Carner Barcelona</span>
+                                            data-bs-target="#upcomming">Carner Barcelona</span>
                                         Rima
                                         XI</p>
 
-                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="upcomming" tabindex="-1"
                                         aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
+                                        <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                         aria-label="Close"></button>
                                                 </div>
 
-                                                <!-- modal-body -->
                                                 <div class="modal-body">
 
                                                     <div class="row g-3">
@@ -561,7 +557,7 @@
                                                                                 on-time</small></button>
                                                                     </div>
 
-                                                                    <div class="my-3">
+                                                                    <div class="my-5">
                                                                         <h6>MAIN NOTES</h6>
                                                                     </div>
 
@@ -622,20 +618,20 @@
                                 <div class="d-flex mt-5">
                                     <img src="./images/img-661.png" alt="">
                                     <p class="uppcoming-shipping-p mt-4"><span class="fw-bold" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">Carner Barcelona</span>
+                                            data-bs-target="#upcomming">Carner Barcelona</span>
                                         Rima
                                         XI</p>
 
-                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="upcomming" tabindex="-1"
                                         aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-xl">
+                                        <div class="modal-dialog modal-lg">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                         aria-label="Close"></button>
                                                 </div>
 
-                                                <!-- modal-body -->
                                                 <div class="modal-body">
 
                                                     <div class="row g-3">
@@ -718,7 +714,7 @@
                                                                                 on-time</small></button>
                                                                     </div>
 
-                                                                    <div class="my-3">
+                                                                    <div class="my-5">
                                                                         <h6>MAIN NOTES</h6>
                                                                     </div>
 
@@ -810,18 +806,41 @@
 
                                 <div class="card border-0 recomend-product-card" style="width: 100%">
                                     <div class="text-end add-plus py-2">
-                                        <div>
-                                            <svg class="inline-block _17otvW me-2" draggable="false" width="24"
-                                                height="24" viewBox="0 0 24 24" fill="none">
-                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
-                                                    fill="#fff"></path>
-                                            </svg>
-                                        </div>
+
+                                        <svg class="inline-block _17otvW me-2" data-bs-toggle="modal"
+                                            data-bs-target="#recomendition" draggable="false" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
+                                                fill="#fff"></path>
+                                        </svg>
+
 
                                     </div>
 
+                                    <!-- Modal -->
+                                    <!-- <div class="modal fade" id="recomendition" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save
+                                                        changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
 
                                     <div>
                                         <img src="./images/card-mon.png" class="card-img-top img-fluid" alt="...">
@@ -847,6 +866,8 @@
                                 </div>
 
                             </div>
+
+
                             <div class="col-md-2">
 
                                 <div class="card border-0 recomend-product-card" style="width: 100%">
@@ -1081,7 +1102,7 @@
                         <h1 class="fw-bold">Scentbird Capsule Collection</h1>
                         <p class="mt-5">Whether you're on that WFH grind or are dreaming of warmer climes, our
                             curated
-                            fragrance</br>
+                            fragrance<br>
                             collections are here to kick off 2021 on a scent-sational note.</p>
                     </div>
 
@@ -1123,7 +1144,950 @@
                     </div>
                 </section>
 
-                <!-- Scentbird Capsule Collection card  -->
+                <!-- Scentbird Capsule Collection card  end-->
+
+
+
+                <!-- New  fragrances card section -->
+
+                <section>
+
+                    <div class="d-flex justify-content-between mt-5 pt-4 mb-4">
+                        <a href="" class="recommendation-quiz">
+                            <h1>New fine fragrances</h1>
+                        </a>
+                        <a href=""><a class="edit-address ms-3">View all
+                                <svg class="inline-block text-pink -s5sTZ" draggable="false" width="8" height="25"
+                                    viewBox="0 0 7 12" fill="none">
+                                    <path
+                                        d="M6.99474 5.89233C6.97001 5.65635 6.86672 5.43321 6.69904 5.25354L2.21682 0.430247C1.9326 0.103171 1.47777 -0.0551087 1.03015 0.0172881C0.582528 0.0896848 0.213218 0.381259 0.0666046 0.778016C-0.0800085 1.17477 0.0193644 1.61369 0.325871 1.92317L4.11554 6L0.325871 10.0768C0.0193645 10.3863 -0.0800084 10.8252 0.0666047 11.222C0.213218 11.6187 0.582528 11.9103 1.03015 11.9827C1.47777 12.0551 1.9326 11.8968 2.21682 11.5698L6.69904 6.74646C6.919 6.51046 7.02571 6.20223 6.99474 5.89233Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </a></a>
+                    </div>
+
+                    <!-- products card -->
+                    <div>
+
+                        <div class="row g-3">
+
+                            <div class="col-md-2">
+
+                                <div class="card border-0 recomend-product-card pb-4" style="width: 100%">
+                                    <div class="text-end add-plus py-2">
+                                        <div>
+                                            <svg class="inline-block _17otvW me-2" draggable="false" width="24"
+                                                height="24" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./images/img-2224-2.jpg" class="card-img-top img-fluid" alt="...">
+                                    </div>
+
+                                    <div class="ratting-star text-center mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="card-body px-3">
+                                        <h6 class="fw-bold">Kenneth Cole</h6>
+                                        <small class="text-secondary">Blush</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2">
+
+                                <div class="card border-0 recomend-product-card pb-4" style="width: 100%">
+                                    <div class="text-end add-plus py-2">
+                                        <div>
+                                            <svg class="inline-block _17otvW me-2" draggable="false" width="24"
+                                                height="24" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./images/img-2224-2.jpg" class="card-img-top img-fluid" alt="...">
+                                    </div>
+
+                                    <div class="ratting-star text-center mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="card-body px-3">
+                                        <h6 class="fw-bold">Kenneth Cole</h6>
+                                        <small class="text-secondary">Blush</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2">
+
+                                <div class="card border-0 recomend-product-card pb-4" style="width: 100%">
+                                    <div class="text-end add-plus py-2">
+                                        <div>
+                                            <svg class="inline-block _17otvW me-2" draggable="false" width="24"
+                                                height="24" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./images/img-2224-2.jpg" class="card-img-top img-fluid" alt="...">
+                                    </div>
+
+                                    <div class="ratting-star text-center mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="card-body px-3">
+                                        <h6 class="fw-bold">Kenneth Cole</h6>
+                                        <small class="text-secondary">Blush</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2">
+
+                                <div class="card border-0 recomend-product-card pb-4" style="width: 100%">
+                                    <div class="text-end add-plus py-2">
+                                        <div>
+                                            <svg class="inline-block _17otvW me-2" draggable="false" width="24"
+                                                height="24" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./images/img-2224-2.jpg" class="card-img-top img-fluid" alt="...">
+                                    </div>
+
+                                    <div class="ratting-star text-center mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="card-body px-3">
+                                        <h6 class="fw-bold">Kenneth Cole</h6>
+                                        <small class="text-secondary">Blush</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2">
+
+                                <div class="card border-0 recomend-product-card pb-4" style="width: 100%">
+                                    <div class="text-end add-plus py-2">
+                                        <div>
+                                            <svg class="inline-block _17otvW me-2" draggable="false" width="24"
+                                                height="24" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./images/img-2224-2.jpg" class="card-img-top img-fluid" alt="...">
+                                    </div>
+
+                                    <div class="ratting-star text-center mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="card-body px-3">
+                                        <h6 class="fw-bold">Kenneth Cole</h6>
+                                        <small class="text-secondary">Blush</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2">
+
+                                <div class="card border-0 recomend-product-card pb-4" style="width: 100%">
+                                    <div class="text-end add-plus py-2">
+                                        <div>
+                                            <svg class="inline-block _17otvW me-2" draggable="false" width="24"
+                                                height="24" viewBox="0 0 24 24" fill="none">
+                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M13.0083 7.00449V10.9763H16.9955C18.3348 10.9763 18.3348 13.0083 16.9955 13.0083H13.0083V16.9955C13.0083 18.3348 10.9763 18.3348 10.9763 16.9955V13.0083H7.00449C5.66517 13.0083 5.66517 10.9763 7.00449 10.9763H10.9763V7.00449C10.9763 5.66517 13.0083 5.66517 13.0083 7.00449Z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div>
+                                        <img src="./images/img-2224-2.jpg" class="card-img-top img-fluid" alt="...">
+                                    </div>
+
+                                    <div class="ratting-star text-center mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <div class="card-body px-3">
+                                        <h6 class="fw-bold">Kenneth Cole</h6>
+                                        <small class="text-secondary">Blush</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <!-- products card -->
+                    <div class="mt-3">
+                        <a class="edit-address">Retake quiz
+                            <svg class="inline-block text-pink -s5sTZ" draggable="false" width="8" height="25"
+                                viewBox="0 0 7 12" fill="none">
+                                <path
+                                    d="M6.99474 5.89233C6.97001 5.65635 6.86672 5.43321 6.69904 5.25354L2.21682 0.430247C1.9326 0.103171 1.47777 -0.0551087 1.03015 0.0172881C0.582528 0.0896848 0.213218 0.381259 0.0666046 0.778016C-0.0800085 1.17477 0.0193644 1.61369 0.325871 1.92317L4.11554 6L0.325871 10.0768C0.0193645 10.3863 -0.0800084 10.8252 0.0666047 11.222C0.213218 11.6187 0.582528 11.9103 1.03015 11.9827C1.47777 12.0551 1.9326 11.8968 2.21682 11.5698L6.69904 6.74646C6.919 6.51046 7.02571 6.20223 6.99474 5.89233Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                    </div>
+
+                </section>
+
+                <!-- New  fragrances card section end-->
+
+
+                <!-- Curated Collection card -->
+
+                <section>
+                    <div class="mt-5">
+                        <h1 class="fw-bold">Scentbird Curated Collection</h1>
+                        <p class="mt-3">Discover our curated selection of must-have scents.</p>
+                    </div>
+
+                    <div class="row g-3 mt-4">
+                        <div class="col-md-4">
+                            <div class="card border-0 recomend-product-card" style="width: 100%;">
+                                <img src="./images/img-69.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold">Things We Love</h4>
+                                    <p class="card-text">The Scentbird community has spoken, and these are the products
+                                        they can't stop raving over.</p>
+                                    <button class="add-cart-btn py-3">Browser Collection</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 recomend-product-card" style="width: 100%;">
+                                <img src="./images/img-69.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold">Things We Love</h4>
+                                    <p class="card-text">The Scentbird community has spoken, and these are the products
+                                        they can't stop raving over.</p>
+                                    <button class="add-cart-btn py-3">Browser Collection</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 recomend-product-card" style="width: 100%;">
+                                <img src="./images/img-69.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold">Things We Love</h4>
+                                    <p class="card-text">The Scentbird community has spoken, and these are the products
+                                        they can't stop raving over.</p>
+                                    <button class="add-cart-btn py-3">Browser Collection</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Curated Collection card end-->
+
+
+                <!-- Top Rated products section -->
+
+                <section>
+
+                    <div class="mt-5 pt-3">
+
+                        <div>
+                            <h1 class="fw-bold mb-4">Top rated products</h1>
+                        </div>
+
+                        <div class="row g-3">
+
+                            <div class="col-md-4">
+                                <div class="card rated-card border-0 shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <img src="./images/img-22-2.jpg" alt="">
+                                                <div class="rated-product-name">
+                                                    <small class="fw-bold">Bottege Veneta</small>
+                                                    <br>
+                                                    <p>Bottege Veneta</p>
+                                                    <!-- ratting star -->
+                                                    <div class="rated-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rated-add-btn">
+                                                <button class="px-3">Add</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <img src="./images/img-22-2.jpg" alt="">
+                                                <div class="rated-product-name">
+                                                    <small class="fw-bold">Bottege Veneta</small>
+                                                    <br>
+                                                    <p>Bottege Veneta</p>
+                                                    <!-- ratting star -->
+                                                    <div class="rated-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rated-add-btn">
+                                                <button class="px-3">Add</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card rated-card border-0 shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <img src="./images/img-22-2.jpg" alt="">
+                                                <div class="rated-product-name">
+                                                    <small class="fw-bold">Bottege Veneta</small>
+                                                    <br>
+                                                    <p>Bottege Veneta</p>
+                                                    <!-- ratting star -->
+                                                    <div class="rated-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rated-add-btn">
+                                                <button class="px-3">Add</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <img src="./images/img-22-2.jpg" alt="">
+                                                <div class="rated-product-name">
+                                                    <small class="fw-bold">Bottege Veneta</small>
+                                                    <br>
+                                                    <p>Bottege Veneta</p>
+                                                    <!-- ratting star -->
+                                                    <div class="rated-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rated-add-btn">
+                                                <button class="px-3">Add</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card rated-card border-0 shadow">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <img src="./images/img-22-2.jpg" alt="">
+                                                <div class="rated-product-name">
+                                                    <small class="fw-bold">Bottege Veneta</small>
+                                                    <br>
+                                                    <p>Bottege Veneta</p>
+                                                    <!-- ratting star -->
+                                                    <div class="rated-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rated-add-btn">
+                                                <button class="px-3">Add</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="d-flex">
+                                                <img src="./images/img-22-2.jpg" alt="">
+                                                <div class="rated-product-name">
+                                                    <small class="fw-bold">Bottege Veneta</small>
+                                                    <br>
+                                                    <p>Bottege Veneta</p>
+                                                    <!-- ratting star -->
+                                                    <div class="rated-star">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rated-add-btn">
+                                                <button class="px-3">Add</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- Top Rated products section end-->
+
+
+                <!-- Trending notes section -->
+                <section>
+
+                    <div class="mt-5 pt-4">
+                        <h1 class="fw-bold">Trending notes</h1>
+                        <p class="mt-3">Discover scents based on notes featured in the top-rated fragrances of the last
+                            <br>three
+                            months.
+                            Click each image to filter by note.
+                        </p>
+                    </div>
+
+                    <!-- product items -->
+                    <div class="row g-3">
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="card-flower text-center">
+                                <img class="img-fluid mt-4" src="./images/Patchaouli-Oil-removebg-preview.png" alt="">
+                            </div>
+                            <div class="card-flower-name mt-3">
+                                <p class="fw-bold">Patchouli</p>
+                                <small class="text-secondary">25 products</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-xs-6">
+                            <div class="card-flower text-center">
+                                <img class="img-fluid mt-4" src="./images/Patchaouli-Oil-removebg-preview.png" alt="">
+                            </div>
+                            <div class="card-flower-name mt-3">
+                                <p class="fw-bold">Patchouli</p>
+                                <small class="text-secondary">25 products</small>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card-flower text-center">
+                                <img class="img-fluid mt-4" src="./images/Patchaouli-Oil-removebg-preview.png" alt="">
+                            </div>
+                            <div class="card-flower-name mt-3">
+                                <p class="fw-bold">Patchouli</p>
+                                <small class="text-secondary">25 products</small>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card-flower text-center">
+                                <img class="img-fluid mt-4" src="./images/Patchaouli-Oil-removebg-preview.png" alt="">
+                            </div>
+                            <div class="card-flower-name mt-3">
+                                <p class="fw-bold">Patchouli</p>
+                                <small class="text-secondary">25 products</small>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card-flower text-center">
+                                <img class="img-fluid mt-4" src="./images/Patchaouli-Oil-removebg-preview.png" alt="">
+                            </div>
+                            <div class="card-flower-name mt-3">
+                                <p class="fw-bold">Patchouli</p>
+                                <small class="text-secondary">25 products</small>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card-flower text-center">
+                                <img class="img-fluid mt-4" src="./images/Patchaouli-Oil-removebg-preview.png" alt="">
+                            </div>
+                            <div class="card-flower-name mt-3">
+                                <p class="fw-bold">Patchouli</p>
+                                <small class="text-secondary">25 products</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+                <!-- Trending notes section end-->
+
+
+                <!-- monthly subscription section -->
+
+                <section>
+
+                    <div class="d-flex justify-content-between mt-5">
+                        <a href="" class="recommendation-quiz">
+                            <h1>Make the most of your subscription</h1>
+                        </a>
+                        <a href=""><a class="edit-address ms-3">See all suggestions
+                                <svg class="inline-block text-pink -s5sTZ" draggable="false" width="8" height="25"
+                                    viewBox="0 0 7 12" fill="none">
+                                    <path
+                                        d="M6.99474 5.89233C6.97001 5.65635 6.86672 5.43321 6.69904 5.25354L2.21682 0.430247C1.9326 0.103171 1.47777 -0.0551087 1.03015 0.0172881C0.582528 0.0896848 0.213218 0.381259 0.0666046 0.778016C-0.0800085 1.17477 0.0193644 1.61369 0.325871 1.92317L4.11554 6L0.325871 10.0768C0.0193645 10.3863 -0.0800084 10.8252 0.0666047 11.222C0.213218 11.6187 0.582528 11.9103 1.03015 11.9827C1.47777 12.0551 1.9326 11.8968 2.21682 11.5698L6.69904 6.74646C6.919 6.51046 7.02571 6.20223 6.99474 5.89233Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </a></a>
+                    </div>
+
+                    <div>
+                        pBecause we want you to get everything you can out of your membership, we’ve <br> collected all
+                        the
+                        special features, offers and promotions on one page. <br>Happy shopping!
+                    </div>
+
+                    <div class="row g-3 mt-4">
+
+                        <div class="col-md-4">
+                            <div class="card border-0 recomend-product-card" style="width: 100%;">
+                                <img src="./images/referralProgramWomen_a37aaa.png" class="card-img-top img-fluid"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mt-4">Tfell all your friends</h4>
+                                    <p class="card-text mb-5">Recommend your friends to Scentbird, and you'll both get a
+                                        free
+                                        month on your subscription. You get abottle, they get a bottle, everyone wins.
+                                    </p>
+                                    <a href=""><a class="edit-address mb-3">See all suggestions
+                                            <svg class="inline-block text-pink -s5sTZ" draggable="false" width="8"
+                                                height="25" viewBox="0 0 7 12" fill="none">
+                                                <path
+                                                    d="M6.99474 5.89233C6.97001 5.65635 6.86672 5.43321 6.69904 5.25354L2.21682 0.430247C1.9326 0.103171 1.47777 -0.0551087 1.03015 0.0172881C0.582528 0.0896848 0.213218 0.381259 0.0666046 0.778016C-0.0800085 1.17477 0.0193644 1.61369 0.325871 1.92317L4.11554 6L0.325871 10.0768C0.0193645 10.3863 -0.0800084 10.8252 0.0666047 11.222C0.213218 11.6187 0.582528 11.9103 1.03015 11.9827C1.47777 12.0551 1.9326 11.8968 2.21682 11.5698L6.69904 6.74646C6.919 6.51046 7.02571 6.20223 6.99474 5.89233Z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </a></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 recomend-product-card" style="width: 100%;">
+                                <img src="./images/referralProgramWomen_a37aaa.png" class="card-img-top img-fluid"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mt-4">Tfell all your friends</h4>
+                                    <p class="card-text mb-5">Recommend your friends to Scentbird, and you'll both get a
+                                        free
+                                        month on your subscription. You get abottle, they get a bottle, everyone wins.
+                                    </p>
+                                    <a href=""><a class="edit-address mb-3">See all suggestions
+                                            <svg class="inline-block text-pink -s5sTZ" draggable="false" width="8"
+                                                height="25" viewBox="0 0 7 12" fill="none">
+                                                <path
+                                                    d="M6.99474 5.89233C6.97001 5.65635 6.86672 5.43321 6.69904 5.25354L2.21682 0.430247C1.9326 0.103171 1.47777 -0.0551087 1.03015 0.0172881C0.582528 0.0896848 0.213218 0.381259 0.0666046 0.778016C-0.0800085 1.17477 0.0193644 1.61369 0.325871 1.92317L4.11554 6L0.325871 10.0768C0.0193645 10.3863 -0.0800084 10.8252 0.0666047 11.222C0.213218 11.6187 0.582528 11.9103 1.03015 11.9827C1.47777 12.0551 1.9326 11.8968 2.21682 11.5698L6.69904 6.74646C6.919 6.51046 7.02571 6.20223 6.99474 5.89233Z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </a></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 recomend-product-card" style="width: 100%;">
+                                <img src="./images/referralProgramWomen_a37aaa.png" class="card-img-top img-fluid"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold mt-4">Tfell all your friends</h4>
+                                    <p class="card-text mb-5">Recommend your friends to Scentbird, and you'll both get a
+                                        free
+                                        month on your subscription. You get abottle, they get a bottle, everyone wins.
+                                    </p>
+                                    <a href=""><a class="edit-address mb-3">See all suggestions
+                                            <svg class="inline-block text-pink -s5sTZ" draggable="false" width="8"
+                                                height="25" viewBox="0 0 7 12" fill="none">
+                                                <path
+                                                    d="M6.99474 5.89233C6.97001 5.65635 6.86672 5.43321 6.69904 5.25354L2.21682 0.430247C1.9326 0.103171 1.47777 -0.0551087 1.03015 0.0172881C0.582528 0.0896848 0.213218 0.381259 0.0666046 0.778016C-0.0800085 1.17477 0.0193644 1.61369 0.325871 1.92317L4.11554 6L0.325871 10.0768C0.0193645 10.3863 -0.0800084 10.8252 0.0666047 11.222C0.213218 11.6187 0.582528 11.9103 1.03015 11.9827C1.47777 12.0551 1.9326 11.8968 2.21682 11.5698L6.69904 6.74646C6.919 6.51046 7.02571 6.20223 6.99474 5.89233Z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </a></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </section>
+
+                <!-- monthly subscription section end-->
+
+
+                <!-- product subscription section -->
+
+                <section>
+
+                    <div class="mt-5">
+                        <h1 class="fw-bold">Get more for less</h1>
+                        <p class="my-4">Want even more products? Upgrade your plan to include two or three items a <br>
+                            month, and
+                            save more on each order.</p>
+                    </div>
+
+                    <!-- subscription product card -->
+                    <div>
+                        <div class="row g-3">
+                            <div class="col-sm-4">
+                                <div class="card montly-product-car montly-product-card">
+                                    <div class="card-body product-card shadow ps-3">
+                                        <div class="mb-4">
+                                            <h5 class="card-title">1 product per month</h5>
+                                            <h4><span class="fw-bold">$15.95 </span><small>/product</small></h4>
+                                        </div>
+
+                                        <div class="card-select-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24">
+                                                <circle cx="12" cy="12" r="12" fill="currentColor"></circle>
+                                                <path fill="#fff"
+                                                    d="M16.3 7l-.8.8-5.4 5.9L8.4 12l-.8-.8L6 12.9l.8.8 2.5 2.5.8.8.8-.9 6.3-6.7.8-.8z">
+                                                </path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-4">
+                                <div class="card border-0 monthly-purces-card" data-bs-toggle="modal"
+                                    data-bs-target="#totalPrice">
+                                    <div class="card-body shadow ps-3">
+                                        <div class="mb-4">
+                                            <h5 class="card-title">3 products per month</h5>
+                                            <h4><span class="fw-bold">$30.95 </span><small>/product</small></h4>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="totalPrice" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+
+                                                    <div class="modal-body mx-4">
+                                                        <h2 class="mb-5">Summary</h2>
+
+
+
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">2 products per month</h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$25.00</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Balance from your current
+                                                                    subscription</h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$0.00</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Tax</h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$0.00</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Shipping</h5>
+                                                                <small class="text-secondary">time and terms of delivery
+                                                                    don’t change</small>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="free text-end">Free</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <hr>
+
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Total: </h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$25.00</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="my-5">
+                                                                <p>Upgrade will come into effect <span
+                                                                        class="free">February</span>.
+                                                                </p>
+
+                                                                <p>Next charge will be
+                                                                    in <span class="free">April</span>.
+                                                                </p>
+
+                                                                <button class="back-button px-5 py-3">Back</button>
+                                                                <button
+                                                                    class="confirm-button px-5 py-3">Confirm</button>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <p>$25.00 total</p>
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24">
+                                                    <circle class="text-secondary" cx="12" cy="12" r="12"
+                                                        fill="currentColor"></circle>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card border-0 monthly-purces-card" data-bs-toggle="modal"
+                                    data-bs-target="#totalPrice">
+                                    <div class="card-body shadow ps-3">
+                                        <div class="mb-4">
+                                            <h5 class="card-title">3 products per month</h5>
+                                            <h4><span class="fw-bold">$30.95 </span><small>/product</small></h4>
+                                        </div>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="totalPrice" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+
+                                                    <div class="modal-body mx-4">
+                                                        <h2 class="mb-5">Summary</h2>
+
+
+
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">2 products per month</h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$25.00</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Balance from your current
+                                                                    subscription</h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$0.00</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Tax</h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$0.00</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Shipping</h5>
+                                                                <small class="text-secondary">time and terms of delivery
+                                                                    don’t change</small>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="free text-end">Free</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <hr>
+
+                                                        <div class="row mt-3">
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg">Total: </h5>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <h5 class="lh-lg text-end">$25.00</h5>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="d-flex justify-content-center align-items-center">
+                                                            <div class="my-5">
+                                                                <p>Upgrade will come into effect <span
+                                                                        class="free">February</span>.
+                                                                </p>
+
+                                                                <p>Next charge will be
+                                                                    in <span class="free">April</span>.
+                                                                </p>
+
+                                                                <button class="back-button px-5 py-3">Back</button>
+                                                                <button
+                                                                    class="confirm-button px-5 py-3">Confirm</button>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between">
+                                            <div>
+                                                <p>$25.00 total</p>
+                                            </div>
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                    viewBox="0 0 24 24">
+                                                    <circle class="text-secondary" cx="12" cy="12" r="12"
+                                                        fill="currentColor"></circle>
+                                                </svg>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- product subscription section end-->
 
             </div>
 

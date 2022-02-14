@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .carousel-slider-bg{
     background-color: #ff408e;
     color: white ;
@@ -68,4 +71,71 @@
     box-shadow: 0px 5px 40px gray;
     transition: 0.3s all;
     cursor: pointer;
+}
+
+.rated-product-name{
+    width: 130px;
+}
+.rated-star{
+    font-size: 10px;
+    color: #ff408e;
+}
+.rated-add-btn button{
+    border: 1px solid #ff408e;
+    background-color: white;
+    color: #ff408e;
+    font-weight: 500;
+}
+.rated-add-btn button:hover{
+    background-color: #ff408e;
+    color: white;
+    transition: 0.5s all;
+}
+.card-flower{
+    border-radius: 100%;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.card-flower:hover{
+    background-color: #ffd7e7;
+}
+.card-flower-name{
+    margin-left: 35px;
+}
+.product-card{
+    border: 1px solid #ff408e;
+}
+.montly-product-card{
+    height: 159px;
+}
+.card-select-btn{
+    text-align: end;
+    color: #ff408e;
+}
+.monthly-purces-card{
+    cursor: pointer;
+}
+.free{
+    color: #ff408e;
+}
+.under-line{
+    border: 2px solid gray;
+}
+.back-button{
+    border: none;
+    color: gray;
+    background-color: white;
+    font-weight: 700;
+}
+.back-button:hover{
+    background-color: #b3d4fc;
+    transition: 0.5s all;
+}
+.confirm-button{
+    border: none;
+    color: white;
+    background-color: #ff408e;
+    font-weight: 700;
 }
