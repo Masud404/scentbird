@@ -1,0 +1,38 @@
+body{
+    background-color: #f9f9f9;
+}
+.fragrance-profile{
+    background-color: white;
+}
+.profile-text{
+    color: #ff408e;
+    font-weight: 700;
+}
+
+
+.tab-button{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: #f9f9f9;
+
+}
+.tab-button.active{
+    border-bottom: 2px solid #ff408e;
+}
+
+.retake-quiz-btn{
+    border: none;
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.retake-quiz-btn:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}

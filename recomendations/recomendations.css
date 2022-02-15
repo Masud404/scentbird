@@ -16,6 +16,16 @@ body{
     margin-top: 10px;
 }
 
+.menu-bar li a{
+    font-size: 13px;
+    font-weight: 600;
+    color: black!important;
+
+}
+.menu-bar li a:hover{
+    color: #ff408e!important;
+}
+
 
 .treanding-page-bg{
     background-color: #f9f9f9;
@@ -102,22 +112,26 @@ body{
     color: white;
     transition: 0.5s all;
 }
+.card-img img {
+    width: 150px;
+    height: 150px;
+}
 .card-flower{
     border-radius: 100%;
     background-color: white;
+    cursor: pointer;
+    padding: 5px;
     width: 150px;
     height: 150px;
-    cursor: pointer;
 }
 .card-flower:hover{
     background-color: #ffd7e7;
 }
-.card-flower-name{
-    margin-left: 35px;
-}
-.product-card{
+
+.price-card:checked{
     border: 1px solid #ff408e;
 }
+
 .montly-product-card{
     height: 159px;
 }
@@ -149,4 +163,14 @@ body{
     color: white;
     background-color: #ff408e;
     font-weight: 700;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 700px) {
+    .card-img {
+      display: flex;
+      justify-content: space-around;
+    }
 }
