@@ -6,6 +6,17 @@ body{
     color: white ;
     font-weight: 400;
 }
+
+
+.cart{
+    width: 21px;
+    height: 17px;
+    background-image: url(http://cdn.scentbird.com/assets/frontbird-site/images/cart-female_d52b2d.svg);
+    background-size: 100% auto;
+    margin-top: 10px;
+}
+
+
 .treanding-page-bg{
     background-color: #f9f9f9;
 }
