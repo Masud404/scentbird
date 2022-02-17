@@ -1,5 +1,6 @@
 body{
     background-color: #f9f9f9;
+    overflow-x: hidden;
 }
 .fragrance-profile{
     background-color: white;
@@ -116,3 +117,27 @@ body{
 
 
 /* Featured Brand page */
+
+.add-queue-btn{
+    width: 300px;
+    background-color: #ff408e;
+    padding: 16px 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.add-queue-btn:hover{
+    background-color: #ff5fa0;
+}
+
+.product-img{
+    width: 144px;
+    height: 144px;
+}
+.read-more a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff408e;
+}
