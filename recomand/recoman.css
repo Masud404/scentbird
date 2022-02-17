@@ -11,7 +11,7 @@ body{
 }
 
 
-.tab-button{
+.tab-button-reco{
     text-align: center;
     font-weight: 600;
     color: black;
@@ -19,7 +19,7 @@ body{
     background-color: #f9f9f9;
 
 }
-.tab-button.active{
+.tab-button-reco.active{
     border-bottom: 2px solid #ff408e;
 }
 
@@ -140,4 +140,28 @@ body{
     text-decoration: none;
     font-weight: 600;
     color: #ff408e;
+}
+
+
+/* All Brand page */
+
+.tab-button-brand{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: #f9f9f9;
+}
+.tab-button-brand.active{
+    border-bottom: 2px solid #ff408e;
+}
+.letter{
+    font-size: 30px;
+    font-weight: 600;
+}
+.perfume-name a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
 }
