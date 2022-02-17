@@ -27,7 +27,6 @@ body{
     background-color: #ff408e;
     color: white;
     font-weight: 600;
-    width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px;
@@ -36,3 +35,84 @@ body{
     background-color: #ff5fa0;
     transition: 0.9s;
 }
+
+
+/* product-card */
+.card{
+    border: none;
+    box-shadow: 0 4px 32px rgba(62,18,35,.2);
+    z-index: 0;
+    transition: 0.3s all;
+}
+.card:hover{
+   box-shadow: 0px 15px 40px gray;
+}
+.plus-icon a{
+    text-decoration: none;
+    color: black;
+}
+.plus-icon a:hover{
+   color: #ff408e;
+   cursor: pointer;
+}
+.see-detail a{
+    text-decoration: none;
+    color: #ff408e;
+}
+
+.product-item img{
+    width: 40px;
+    margin-left: 5px;
+}
+
+/* view more button */
+.view-more{
+    text-align: center;
+}
+.view-more button{
+    border: 1px solid #ff408e;
+    width: 350px;
+    padding: 16px 0px;
+    color: #ff408e;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.view-more button:hover{
+    background-color: #ff408e;
+    color: white;
+}
+
+
+/* new-page */
+
+.nav-tabs .tab-button{
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    border: none;
+}
+.nav-link.tab-button.active{
+    border-bottom: 2px solid #ff408e;
+    background-color: #f9f9f9;
+    color: black;
+}
+.rated-star{
+    font-size: 13px;
+    color: #ff408e;
+}
+.review a{
+    text-decoration: none;
+    color: #ff408e;
+    font-weight: 500;
+}
+.product-name a{
+    text-decoration: none;
+    color: black;
+}
+.product-name a:hover{
+    color: #ff408e;
+}
+
+
+/* Featured Brand page */
