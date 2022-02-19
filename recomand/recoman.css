@@ -165,3 +165,55 @@ body{
     color: black;
     font-weight: 600;
 }
+
+/* expolore brand */
+
+/* .featured{
+    position: relative;
+}
+.featured-brand-img{
+    position: absolute;
+} */
+.featurd-brand button{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    padding: 8px 24px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.explore-brand button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.explore-brand button:hover{
+    background-color: rgb(194, 194, 194);
+}
+.pamela-roland-info a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.discover-brand{
+    text-decoration: none;
+    color: black;
+}
+.discover-brand:hover{
+    color: black;
+}
+.clean-brand{
+    text-decoration: none;
+    color: black;
+}
+.clean-brand:hover{
+    color: black;
+}
+.view-products{
+    color: #ff408e;
+    font-weight: 600;
+}
