@@ -85,7 +85,7 @@ body{
 }
 .recomend-product-card{
     box-shadow: 0 4px 32px rgba(62,18,35,.2);
-    z-index: 0;
+    /* z-index: 0; */
     transition: 0.3s all;
 }
 .recomend-product-card:hover{
