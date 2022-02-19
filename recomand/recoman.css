@@ -218,3 +218,69 @@ body{
     font-weight: 600;
 }
 
+
+/* fragrance pages */
+
+.upgrade-product-btn{
+    border: none;
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+}
+.upgrade-product-btn:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+.filter-collection a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.filter-collection a:active{
+    color: #ff408e;
+}
+.ratting-star-r{
+    color: #ff408e;
+}
+.ratting-star-s{
+    color: gainsboro;
+}
+.ratting-up{
+    font-weight: 600;
+}
+.input-checkbox{
+    font-size: 25px;
+    background-color: #f2f5f8 !important;
+    border: 1px solid #dcdfe5 !important;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.input-checkbox:checked{
+    background-color: #ff408e !important;
+    border: #ff408e !important;
+}
+
+.form-check-text{
+    font-weight: 600;
+}
+
+.form-scroll{
+    max-height: 450px;
+    overflow-y: scroll;
+}
+.flower-text p{
+    padding-top: 5px;
+    color: white;
+    opacity: .9;
+    font-weight: 600;
+}
+.show-all-btn{
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: 600;
+    border: none;
+}
+.show-all-btn:hover{
+    color: #ff408e;
+    border-bottom: 1px solid #ff408e;
+}
