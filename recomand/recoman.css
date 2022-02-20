@@ -276,11 +276,63 @@ body{
 }
 .show-all-btn{
     background-color: #f9f9f9;
-    color: black;
+    color: #ff408e;
     font-weight: 600;
     border: none;
 }
 .show-all-btn:hover{
-    color: #ff408e;
     border-bottom: 1px solid #ff408e;
+}
+.show-all-offcanvas{
+    width: 100%;
+    height: 100%;
+    max-width: 750px;
+}
+.offcanvas-personal-info{
+    background-color: #dddd;
+}
+.offcanvas-photo-gellary{
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.clear-all-btn{
+    border: 1px solid #ff408e;
+    background-color: white;
+    font-weight: 700;
+    color: #ff408e;
+}
+.clear-all-btn:hover{
+    background-color: #ff408e;
+    color: white;
+}
+.apply-select-btn{
+    background-color: #ff408e;
+    color: white;
+    font-weight: 700;
+}
+.apply-select-btn:hover{
+    background-color: #ff5fa0;
+}
+.perfume-list{
+    background-color: #ffabae;
+}
+.tab-button-perfumes{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: #f9f9f9;
+}
+.tab-button-perfumes.active{
+    border-bottom: 2px solid #ff408e;
+}
+.perfume-card{
+    background-color: #f9f9f9;
+}
+.perfume-female{
+    text-decoration: none;
+}
+.perfume-text{
+    color: black;
 }
