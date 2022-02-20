@@ -317,6 +317,9 @@ body{
 .perfume-list{
     background-color: #ffabae;
 }
+
+/* collection for monthly page */
+
 .tab-button-perfumes{
     text-align: center;
     font-weight: 600;
@@ -335,4 +338,53 @@ body{
 }
 .perfume-text{
     color: black;
+}
+
+/* perfume monthly page */
+
+.perfume-logo img{
+    width: 25%;
+}
+.average-ratting{
+    font-size: 15px;
+    color: gray;
+}
+.floral-svg{
+    width: 70px;
+}
+.isabel-orana-bg{
+    background-color: white;
+}
+.isabel-orana-text{
+    font-weight: 600;
+}
+.shipment-product-card{
+    width: 100%;
+    height: 180px;
+}
+.add-plus:hover{
+    color: #ff408e;
+    cursor: pointer;
+}
+.ratting-star{
+    color: #ff408e;
+}
+.recommendation-quiz{
+    text-decoration: none;
+    color: black;
+}
+.recommendation-quiz h1{
+    font-weight: 600;
+}
+.recommendation-quiz h1:hover{
+    color: #ff408e;
+}
+.edit-address{
+    color: #ff408e;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+.edit-address:hover{
+    color: #ff408e;
 }
