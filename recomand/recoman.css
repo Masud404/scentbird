@@ -459,3 +459,30 @@ body{
 .card-occasion{
     background-color: #f2f5f8;
 }
+
+/* gifts for him page */
+
+.gift-him-bg{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/desktopMale_55836f.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.options-input{
+    width: 245px;
+    border: 1px solid #ff408e!important;
+}
+.gift-input-select{
+    background-color: white;
+    cursor: pointer;
+}
+.superhero-perfume{
+    color: #ff408e;
+    font-weight: 700;
+}
+.more-info-btn{
+    color: black;
+}
+.more-info-btn:hover{
+    color: black;
+    text-decoration: none;
+}
