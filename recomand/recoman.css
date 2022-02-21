@@ -422,3 +422,40 @@ body{
     width: 50%;
     height: 50%;
 }
+
+/* all gifts page */
+.gift-text{
+    font-weight: 600;
+}
+.gift-img{
+    width: 60%;
+}
+.choose-btn{
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+    border-radius: 0%!important;
+}
+.choose-btn:hover{
+    color: white;
+    background-color: #ff5fa0;
+}
+
+
+/* gifts card page*/
+
+.gifts-card-bg{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/hero_ff5a02.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #f2f5f8;
+}
+.choose-gift{
+    background-color: white;
+}
+.best-seller-card{
+    border: 2px solid #ff408e;
+}
+.card-occasion{
+    background-color: #f2f5f8;
+}
