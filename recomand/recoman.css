@@ -388,3 +388,37 @@ body{
 .edit-address:hover{
     color: #ff408e;
 }
+
+/* clean gragness page */
+
+.tab-button-fragness{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: #f9f9f9;
+}
+.tab-button-fragness.active{
+    border-bottom: 2px solid #ff408e;
+}
+
+/* gifts bambo charcol page */
+.price{
+    color: #ff408e;
+    font-weight: 700;
+}
+.price-value{
+    font-size: 25px;
+}
+.bambocharcol-img{
+    width: 157px;
+    height: 157px;
+}
+.bambo-charcoal-text{
+    font-size: 16px;
+    font-weight: 600;
+}
+.bambo-carocel{
+    width: 50%;
+    height: 50%;
+}
