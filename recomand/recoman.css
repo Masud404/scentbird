@@ -529,11 +529,19 @@ body{
 .get-details-btn{
     text-decoration: none;
     color: #ff408e;
-    font-weight: 600;
+    font-weight: 500;
 }
 .get-details-btn:hover{
     color: #ff408e;
 }
 .queue-monthly-product{
-    
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.explore-text{
+    font-weight: 600;
+}
+.explore-text:hover{
+    color: #ff408e;
 }
