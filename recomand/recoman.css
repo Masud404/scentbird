@@ -519,3 +519,21 @@ body{
     width: 100%;
     height: 550px;
 }
+
+
+/* my queue page*/
+.carosel-perivious-btn{
+    background-color: #ff408e;
+    border-radius: 100%;
+}
+.get-details-btn{
+    text-decoration: none;
+    color: #ff408e;
+    font-weight: 600;
+}
+.get-details-btn:hover{
+    color: #ff408e;
+}
+.queue-monthly-product{
+    
+}

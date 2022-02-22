@@ -19,9 +19,24 @@ body{
 .navbar{
     border-bottom: 1px solid hsla(0,0%,100%,.3);
 }
-.men-women small{
-    font-size: 20px;
+.men-women a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
     font-weight: 600;
+}
+.men-women a:hover{
+    color: black;
+}
+
+.log-in{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+.log-in:hover{
+    color: black;
 }
 /* navbar offcanvas */
  .btn-check:focus + .btn, .btn:focus{
@@ -47,6 +62,12 @@ body{
     cursor: pointer;
 }
 
+.chose-num{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #dddd;
+    border-radius: 50%;
+}
 
 .get-disscount{
     color: black;
@@ -96,6 +117,17 @@ body{
     background-color: #f9f9f9;
 }
 
+.perfumes-home{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: #f9f9f9;
+}
+.perfumes-home.active{
+    border-bottom: 2px solid #ff408e;
+}
+
 /* product-card */
 .card{
     border: none;
@@ -133,8 +165,8 @@ body{
 .create-account{
     background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/female_dad7cd.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    width: 100%;
+    height: 404px;
 }
 
 
