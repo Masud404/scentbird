@@ -30,6 +30,9 @@
     color: white;
     font-weight: 600;
 }
+.shipment-input{
+    box-shadow: none!important;
+}
 .amazon-payment-btn{
     background-color: #fad676;
     width: 300px;
