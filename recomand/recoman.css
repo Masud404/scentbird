@@ -545,3 +545,21 @@ body{
 .explore-text:hover{
     color: #ff408e;
 }
+
+/* Buy your queue page */
+.buy-queue{
+    max-width: 800px;
+}
+.buy-queue-text{
+    color: #ff408e;
+}
+.disable-btn{
+    background-color: #e6e6e6;
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.disable-btn-l{
+    background-color: #f9f9f9;
+}
