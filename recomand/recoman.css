@@ -547,6 +547,7 @@ body{
 }
 
 /* Buy your queue page */
+
 .buy-queue{
     max-width: 800px;
 }
@@ -563,3 +564,102 @@ body{
 .disable-btn-l{
     background-color: #f9f9f9;
 }
+
+
+/* Tracking page */
+
+.traking-page-bg{
+   background-color: white;
+}
+.delivery-options{
+    color: #ff408e;
+    font-weight: 500;
+}
+.delivery-options:hover{
+    color: #ff408e;
+}
+.recomend-product-card{
+    box-shadow: 0 4px 32px rgba(62,18,35,.2);
+    /* z-index: 0; */
+    transition: 0.3s all;
+}
+.recomend-product-card:hover{
+    box-shadow: 0px 5px 40px gray;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.add-cart-btn{
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+}
+.add-cart-btn:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+.add-all-button{
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.add-all-button:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+
+/* carosel */
+.carousel-f {
+    background: white;
+}
+  
+  .carousel-cell {
+    width: 28%;
+    height: 378px;
+    margin-right: 10px;
+    background: white;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    border-radius: 0%!important;
+  }
+  
+  .carousel-cell.is-selected{
+    border: 1px solid #ff408e;
+}
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 300px;
+    font-size: 80px;
+    color: white;
+  }
+  .recomended-products{
+      text-decoration: none;
+      color: black;
+  }
+  .recomended-products:hover{
+      color: black;
+  }
+  .tracking-bottom-bg{
+      background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/birdWithScent_98d33d.png");
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 196px;
+      background-position: center;
+  }
+
+  /* media query */
+
+@media only screen and (max-width: 700px) {
+    .carousel-cell {
+      width: 80%;
+    }
+}
+ 
+
+  
+  
