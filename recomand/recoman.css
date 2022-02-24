@@ -756,5 +756,53 @@ body{
      background-color: rgb(139, 139, 139);
  }
  .mascu-femini-btn{
-     margin-top: 277px;
+     margin-top: 380px;
  }
+
+
+ /* Help line page */
+
+.help-line-bg{
+    background-color: white;
+}
+.contact-us a{
+    text-decoration: none;
+    color: #ff408e;
+    font-weight: 500;
+}
+.contact-us a:hover{
+    color: #ff408e;
+    border-bottom: 1px solid #ff408e;
+}
+.helpline-bg-img{
+    background-image: url("https://theme.zdassets.com/theme_assets/526881/db183760bac0330273474e20013471583089e414.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+.help-line-qus{
+    border-bottom: 1px solid #ddd;
+}
+.help-line-qus a{
+    text-decoration: none;
+    color: black;
+}
+.help-line-qus:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.scentbird-link a{
+    text-decoration: none;
+    color:#666;
+}
+.scentbird-link a:hover{
+    color: #666;
+    border-bottom: 1px solid #666;
+}
+
+@media only screen and (max-width: 700px) {
+    .scentbird-link{
+        text-align: center;
+    }
+}
