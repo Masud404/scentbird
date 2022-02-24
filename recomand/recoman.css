@@ -849,3 +849,29 @@ body{
         width: 100%;
     }
 }
+
+
+/* About us page */
+
+.about-us{
+    max-width: 772px;
+}
+.about-founder{
+    background-color: #f6f7f8;
+}
+.linkedin-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff408e;
+}
+.linkedin-link:hover{
+    color: #ff408e;
+}
+.click-here-link{
+    color: #ff408e;
+    font-weight: 600;
+}
+.click-here-link:hover{
+    color: #ff408e;
+    text-decoration: none;
+}
