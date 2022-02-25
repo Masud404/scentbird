@@ -927,3 +927,53 @@ body{
     color: white;
     padding-top: 90px;
 }
+
+
+/* Blog page */
+
+.blog-header-bg{
+    background-color: #141414;
+}
+.blog-menu{
+    background-color: #141414;
+}
+.blog-menu-items{
+    color: white!important;
+    font-size: 17px;
+    font-weight: 500;
+}
+.blog-items-active{
+    color: #af6929!important;
+}
+.blog-menu-items:hover{
+    color: #af6929!important;
+}
+.blog-carousel-bg{
+    background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/late-night-text.jpg?resize=780%2C420&amp;ssl=1&quot");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-carousel-p{
+    background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/2a41c25c-c20f-4392-975c-73a9a81d091a-1.png?resize=780%2C516&amp;ssl=1&quot");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-carousel-text{
+    background-color: #141414;
+    opacity: 0.8;
+    color: white;
+}
+.blog-carousel{
+    padding-top: 370px;
+}
+.carousel-icons{
+    background-color: #af6929;
+    border-radius: 100%;
+}
