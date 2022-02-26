@@ -977,3 +977,101 @@ body{
     background-color: #af6929;
     border-radius: 100%;
 }
+
+
+/* carrers page */
+.carrers-menubar{
+    background-color: #ffff;
+}
+.carres-menu-items{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.carres-menu-items:hover{
+    background-color: #e8bcb5;
+    color: white!important;
+    border: 2px solid #e8bcb5;
+}
+.carrers-bg{
+    background-image: url("https://gallery-cdn.breezy.hr/ea1cd628-1381-4a71-9711-e624870537e6/30738808_1683025405138827_9136620882955862016_o.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 480px;
+    background-color: white;
+    background-position: center;
+    opacity: 0.8;
+}
+.carrer-text{
+    font-size: 62px;
+}
+.view-openings-btn{
+    background-color: rgba(0,0,0,0.2);
+    font-size: 20px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.certified-section-bg{
+    background-color: white;
+}
+.carrer-header-text{
+    margin-top: 50px;
+}
+.certified-section{
+    max-width: 900px;
+}
+.certified-section p{
+    font-size: 18px;
+}
+.medico-logo path{
+    color: white;
+}
+.carrers-logo-items{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(232, 189, 181);
+    border-radius: 100%;
+}
+.departments{
+    display: inline-block;
+    background-color: #e9e9ed;
+    border: none;
+}
+.departments:focus{
+    box-shadow: none!important;
+}
+.location-logo{
+    width: 15px;
+    height: 20px;
+}
+.location{
+    font-size: 22px;
+    padding-bottom: 0;
+}
+.location-apply-btn{
+    border: none;
+    background-color: #666666;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.location-apply-btn:hover{
+    background-color: #e8bab3;
+}
+.project-manager:hover{
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.carrers-footer-bg{
+    background-color: #444;
+}
+.carrers-footer-text{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+    .carres-menu-items{
+        width: 50%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+          <!-- Bootstrap CDN -->
+          <link href="../css/bootstrap.min.css" rel="stylesheet">
+          <!-- Fontawesome CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./recoman.css">
+    </head>
+
+<body>
+    
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light carrers-menubar fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/carrers-logo.png" class="mt-3" alt="" width="134px" height="40px">
+                      </a>
+
+
+                        <ul class="navbar-nav me-auto my-2 my-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link gift-text" href="#">Perks</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link gift-text" href="#">Testimonials</a>
+                            </li>
+    
+                         </ul>
+    
+                        <ul class="navbar-nav ms-auto my-2 my-lg-0">
+    
+                            <li class="nav-item">
+                                <a class="nav-link gift-text carres-menu-items" href="#">Company Website</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link gift-text" href="#">Employees</a>
+                            </li>
+    
+                            <li class="nav-item d-flex">
+    
+                                <a href="" class="nav-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="me-3" width="10px" height="28px" viewBox="0 0 320 512"><path fill="gray" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                                </a>
+    
+                                <a href="" class="nav-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="me-3" width="16px" height="28px" viewBox="0 0 512 512"><path fill="gray" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+                                </a>
+                             
+                                <a href="" class="nav-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="me-3" width="15px" height="28px" viewBox="0 0 448 512"><path fill="gray" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                                </a>
+    
+                                <a href="" class="nav-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="16px" viewBox="0 0 448 512"><path fill="gray" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                                </a>
+                            
+                            </li>
+    
+                        </ul>
+
+                    
+
+                </div>
+
+            </div>
+        </nav>
+    </section>
+
+    <section class="carrers-bg py-5">
+      
+        <div class="container text-center carrer-header-text">
+            <h1 class="carrer-text text-light pt-3">Join the Nest!</h1>
+            <h3 class="text-light py-3">We're looking for great people to join our growing team.</h3>
+            <div>
+                <button class="view-openings-btn px-4 py-3">View Openings</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="certified-section-bg">
+
+       <div class="container">
+
+        <div class="certified-section pt-4 pb-5 m-auto">
+            
+            <p>At Scentbird, our hearts beat around delivering joy through scent and clean beauty. In addition to our direct-to-consumer subscription fragrance business, we also own Goodhabit, Deck of Scarlet, Confessions of a Rebel and Sanctuary. We surpassed our 2020 goal in the first 5 months of 2020, and we're just getting started. We have grown from a team of 3 to nearly 140+ team members across 17 different time zones. We are New Jersey-based, employing a remote-first work environment, because we believe talent isn't defined by local. We are looking for innovative, passionate, creative minds to join the Nest and can't wait to meet you.
+            </p>
+
+            <p>Thanks to our people, we’re proud to have earned Great Place to Work® Certification™. Our company culture is our top priority!</p>
+
+            <img src="./images/companyBadge.png" width="120px" height="204px" alt="">
+        
+        </div>
+
+        <hr>
+
+        <div class="certified-section m-auto">
+
+            <div class="row g-3 text-center my-5">
+
+                <div class="col-md-4">
+                     <div class="d-flex justify-content-center">
+                        <div class="carrers-logo-items d-flex justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="medico-logo" width="25px" height="25px" viewBox="0 0 512 512"><path fill="white" d="M464 96H384V48C384 21.5 362.5 0 336 0h-160C149.5 0 128 21.5 128 48V96H48C21.5 96 0 117.5 0 144v288C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48v-288C512 117.5 490.5 96 464 96zM176 48h160V96h-160V48zM368 314c0 8.836-7.164 16-16 16h-54V384c0 8.836-7.164 16-15.1 16h-52c-8.835 0-16-7.164-16-16v-53.1H160c-8.836 0-16-7.164-16-16v-52c0-8.838 7.164-16 16-16h53.1V192c0-8.838 7.165-16 16-16h52c8.836 0 15.1 7.162 15.1 16v54H352c8.836 0 16 7.162 16 16V314z"/></svg>
+                        </div>
+                    </div>
+                    
+                    <p class="mt-3">Paid Maternity and Paternity Leave</p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-center">
+                       <div class="carrers-logo-items d-flex justify-content-center align-items-center">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="medico-logo" width="25px" height="25px" viewBox="0 0 512 512"><path fill="white" d="M464 96H384V48C384 21.5 362.5 0 336 0h-160C149.5 0 128 21.5 128 48V96H48C21.5 96 0 117.5 0 144v288C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48v-288C512 117.5 490.5 96 464 96zM176 48h160V96h-160V48zM368 314c0 8.836-7.164 16-16 16h-54V384c0 8.836-7.164 16-15.1 16h-52c-8.835 0-16-7.164-16-16v-53.1H160c-8.836 0-16-7.164-16-16v-52c0-8.838 7.164-16 16-16h53.1V192c0-8.838 7.165-16 16-16h52c8.836 0 15.1 7.162 15.1 16v54H352c8.836 0 16 7.162 16 16V314z"/></svg>
+                       </div>
+                   </div>
+                   
+                   <p class="mt-3">Paid Maternity and Paternity Leave</p>
+
+               </div>
+
+               <div class="col-md-4">
+                <div class="d-flex justify-content-center">
+                   <div class="carrers-logo-items d-flex justify-content-center align-items-center">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="medico-logo" width="25px" height="25px" viewBox="0 0 512 512"><path fill="white" d="M464 96H384V48C384 21.5 362.5 0 336 0h-160C149.5 0 128 21.5 128 48V96H48C21.5 96 0 117.5 0 144v288C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48v-288C512 117.5 490.5 96 464 96zM176 48h160V96h-160V48zM368 314c0 8.836-7.164 16-16 16h-54V384c0 8.836-7.164 16-15.1 16h-52c-8.835 0-16-7.164-16-16v-53.1H160c-8.836 0-16-7.164-16-16v-52c0-8.838 7.164-16 16-16h53.1V192c0-8.838 7.165-16 16-16h52c8.836 0 15.1 7.162 15.1 16v54H352c8.836 0 16 7.162 16 16V314z"/></svg>
+                   </div>
+               </div>
+               
+               <p class="mt-3">Paid Maternity and Paternity Leave</p>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-center">
+                       <div class="carrers-logo-items d-flex justify-content-center align-items-center">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="medico-logo" width="25px" height="25px" viewBox="0 0 512 512"><path fill="white" d="M464 96H384V48C384 21.5 362.5 0 336 0h-160C149.5 0 128 21.5 128 48V96H48C21.5 96 0 117.5 0 144v288C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48v-288C512 117.5 490.5 96 464 96zM176 48h160V96h-160V48zM368 314c0 8.836-7.164 16-16 16h-54V384c0 8.836-7.164 16-15.1 16h-52c-8.835 0-16-7.164-16-16v-53.1H160c-8.836 0-16-7.164-16-16v-52c0-8.838 7.164-16 16-16h53.1V192c0-8.838 7.165-16 16-16h52c8.836 0 15.1 7.162 15.1 16v54H352c8.836 0 16 7.162 16 16V314z"/></svg>
+                       </div>
+                   </div>
+                   
+                   <p class="mt-3">Paid Maternity and Paternity Leave</p>
+
+                </div>
+
+               <div class="col-md-4">
+                <div class="d-flex justify-content-center">
+                   <div class="carrers-logo-items d-flex justify-content-center align-items-center">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="medico-logo" width="25px" height="25px" viewBox="0 0 512 512"><path fill="white" d="M464 96H384V48C384 21.5 362.5 0 336 0h-160C149.5 0 128 21.5 128 48V96H48C21.5 96 0 117.5 0 144v288C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48v-288C512 117.5 490.5 96 464 96zM176 48h160V96h-160V48zM368 314c0 8.836-7.164 16-16 16h-54V384c0 8.836-7.164 16-15.1 16h-52c-8.835 0-16-7.164-16-16v-53.1H160c-8.836 0-16-7.164-16-16v-52c0-8.838 7.164-16 16-16h53.1V192c0-8.838 7.165-16 16-16h52c8.836 0 15.1 7.162 15.1 16v54H352c8.836 0 16 7.162 16 16V314z"/></svg>
+                   </div>
+               </div>
+               
+               <p class="mt-3">Paid Maternity and Paternity Leave</p>
+
+                </div>
+
+              <div class="col-md-4">
+                <div class="d-flex justify-content-center">
+                   <div class="carrers-logo-items d-flex justify-content-center align-items-center">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="medico-logo" width="25px" height="25px" viewBox="0 0 512 512"><path fill="white" d="M464 96H384V48C384 21.5 362.5 0 336 0h-160C149.5 0 128 21.5 128 48V96H48C21.5 96 0 117.5 0 144v288C0 458.5 21.5 480 48 480h416c26.5 0 48-21.5 48-48v-288C512 117.5 490.5 96 464 96zM176 48h160V96h-160V48zM368 314c0 8.836-7.164 16-16 16h-54V384c0 8.836-7.164 16-15.1 16h-52c-8.835 0-16-7.164-16-16v-53.1H160c-8.836 0-16-7.164-16-16v-52c0-8.838 7.164-16 16-16h53.1V192c0-8.838 7.165-16 16-16h52c8.836 0 15.1 7.162 15.1 16v54H352c8.836 0 16 7.162 16 16V314z"/></svg>
+                   </div>
+               </div>
+               
+               <p class="mt-3">Paid Maternity and Paternity Leave</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+       </div>
+
+       <hr>
+
+       <div class="container certified-section m-auto mt-3 mb-5">
+           <h1 class="text-center mt-5">Our Openings</h1>
+
+          
+                <div>
+                    <div class="my-5 text-center">
+                        
+                        <div class="d-inline-block mt3">
+                            <h6 class="d-inline-block gift-text mb-4">Departments</h6>
+                             <select class="form-select gift-text departments">
+                              <option selected>Choose...</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+
+                          </div>
+
+                        <div class="d-inline-block mt-3">
+                            <h6 class="d-inline-block gift-text mb-4">Locations</h6>
+                             <select class="form-select gift-text departments">
+                              <option selected>Choose...</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+
+                          </div>
+
+                    </div>
+                </div>
+          
+
+                <div>
+
+                    <div>
+                        <h4 class="gift-text">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="location-logo" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                            </span>
+
+                            <span class="location ms-3">
+                                New York, NY
+                            </span>
+
+                         </h4>
+                    </div>
+
+                    <div class="d-flex justify-content-between project-manager mt-4">
+
+                            <div class="py-2 px-3">
+                                   <h5>Project Manager</h5>
+       
+                                   <div class="d-flex text-secondary">
+                                       <p>
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="11px" height="16px" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               New York, NY
+                                           </span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="18px" viewBox="0 0 384 512"><path d="M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272z"/></svg>
+                                           </span>
+       
+                                           <span>Full-Time</span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="19px" height="16px" viewBox="0 0 640 512"><path d="M319.1 351.1c-35.35 0-64 28.66-64 64.01s28.66 64.01 64 64.01c35.34 0 64-28.66 64-64.01S355.3 351.1 319.1 351.1zM320 191.1c-70.25 0-137.9 25.6-190.5 72.03C116.3 275.7 115 295.9 126.7 309.2C138.5 322.4 158.7 323.7 171.9 312C212.8 275.9 265.4 256 320 256s107.3 19.88 148.1 56C474.2 317.4 481.8 320 489.3 320c8.844 0 17.66-3.656 24-10.81C525 295.9 523.8 275.7 510.5 264C457.9 217.6 390.3 191.1 320 191.1zM630.2 156.7C546.3 76.28 436.2 32 320 32S93.69 76.28 9.844 156.7c-12.75 12.25-13.16 32.5-.9375 45.25c12.22 12.78 32.47 13.12 45.25 .9375C125.1 133.1 220.4 96 320 96s193.1 37.97 265.8 106.9C592.1 208.8 600 211.8 608 211.8c8.406 0 16.81-3.281 23.09-9.844C643.3 189.2 642.9 168.1 630.2 156.7z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               Remote Ok
+                                           </span>
+       
+                                       </p>
+                                   </div>
+       
+                               </div>
+       
+                               <div class="mt-4">
+                                   <button class="location-apply-btn px-4 py-2 me-3">Apply</button>
+                               </div>
+                               
+                          </div>
+                    
+                </div>
+
+
+                <div>
+
+                    <div>
+                        <h4 class="gift-text">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="location-logo" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                            </span>
+
+                            <span class="location ms-3">
+                                New York, NY
+                            </span>
+
+                         </h4>
+                    </div>
+
+                    <div class="d-flex justify-content-between project-manager mt-4">
+
+                            <div class="py-2 px-3">
+                                   <h5>Project Manager</h5>
+       
+                                   <div class="d-flex text-secondary">
+                                       <p>
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="11px" height="16px" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               New York, NY
+                                           </span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="18px" viewBox="0 0 384 512"><path d="M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272z"/></svg>
+                                           </span>
+       
+                                           <span>Full-Time</span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="19px" height="16px" viewBox="0 0 640 512"><path d="M319.1 351.1c-35.35 0-64 28.66-64 64.01s28.66 64.01 64 64.01c35.34 0 64-28.66 64-64.01S355.3 351.1 319.1 351.1zM320 191.1c-70.25 0-137.9 25.6-190.5 72.03C116.3 275.7 115 295.9 126.7 309.2C138.5 322.4 158.7 323.7 171.9 312C212.8 275.9 265.4 256 320 256s107.3 19.88 148.1 56C474.2 317.4 481.8 320 489.3 320c8.844 0 17.66-3.656 24-10.81C525 295.9 523.8 275.7 510.5 264C457.9 217.6 390.3 191.1 320 191.1zM630.2 156.7C546.3 76.28 436.2 32 320 32S93.69 76.28 9.844 156.7c-12.75 12.25-13.16 32.5-.9375 45.25c12.22 12.78 32.47 13.12 45.25 .9375C125.1 133.1 220.4 96 320 96s193.1 37.97 265.8 106.9C592.1 208.8 600 211.8 608 211.8c8.406 0 16.81-3.281 23.09-9.844C643.3 189.2 642.9 168.1 630.2 156.7z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               Remote Ok
+                                           </span>
+       
+                                       </p>
+                                   </div>
+       
+                               </div>
+       
+                               <div class="mt-4">
+                                   <button class="location-apply-btn px-4 py-2 me-3">Apply</button>
+                               </div>
+                               
+                          </div>
+                    
+                </div>
+
+                <div>
+
+                    <div>
+                        <h4 class="gift-text">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="location-logo" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                            </span>
+
+                            <span class="location ms-3">
+                                New York, NY
+                            </span>
+
+                         </h4>
+                    </div>
+
+                    <div class="d-flex justify-content-between project-manager mt-4">
+
+                            <div class="py-2 px-3">
+                                   <h5>Project Manager</h5>
+       
+                                   <div class="d-flex text-secondary">
+                                       <p>
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="11px" height="16px" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               New York, NY
+                                           </span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="18px" viewBox="0 0 384 512"><path d="M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272z"/></svg>
+                                           </span>
+       
+                                           <span>Full-Time</span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="19px" height="16px" viewBox="0 0 640 512"><path d="M319.1 351.1c-35.35 0-64 28.66-64 64.01s28.66 64.01 64 64.01c35.34 0 64-28.66 64-64.01S355.3 351.1 319.1 351.1zM320 191.1c-70.25 0-137.9 25.6-190.5 72.03C116.3 275.7 115 295.9 126.7 309.2C138.5 322.4 158.7 323.7 171.9 312C212.8 275.9 265.4 256 320 256s107.3 19.88 148.1 56C474.2 317.4 481.8 320 489.3 320c8.844 0 17.66-3.656 24-10.81C525 295.9 523.8 275.7 510.5 264C457.9 217.6 390.3 191.1 320 191.1zM630.2 156.7C546.3 76.28 436.2 32 320 32S93.69 76.28 9.844 156.7c-12.75 12.25-13.16 32.5-.9375 45.25c12.22 12.78 32.47 13.12 45.25 .9375C125.1 133.1 220.4 96 320 96s193.1 37.97 265.8 106.9C592.1 208.8 600 211.8 608 211.8c8.406 0 16.81-3.281 23.09-9.844C643.3 189.2 642.9 168.1 630.2 156.7z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               Remote Ok
+                                           </span>
+       
+                                       </p>
+                                   </div>
+       
+                               </div>
+       
+                               <div class="mt-4">
+                                   <button class="location-apply-btn px-4 py-2 me-3">Apply</button>
+                               </div>
+                               
+                          </div>
+                    
+                </div>
+
+                <div>
+
+                    <div>
+                        <h4 class="gift-text">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="location-logo" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                            </span>
+
+                            <span class="location ms-3">
+                                New York, NY
+                            </span>
+
+                         </h4>
+                    </div>
+
+                    <div class="d-flex justify-content-between project-manager mt-4">
+
+                            <div class="py-2 px-3">
+                                   <h5>Project Manager</h5>
+       
+                                   <div class="d-flex text-secondary">
+                                       <p>
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="11px" height="16px" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               New York, NY
+                                           </span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="18px" viewBox="0 0 384 512"><path d="M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272z"/></svg>
+                                           </span>
+       
+                                           <span>Full-Time</span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="19px" height="16px" viewBox="0 0 640 512"><path d="M319.1 351.1c-35.35 0-64 28.66-64 64.01s28.66 64.01 64 64.01c35.34 0 64-28.66 64-64.01S355.3 351.1 319.1 351.1zM320 191.1c-70.25 0-137.9 25.6-190.5 72.03C116.3 275.7 115 295.9 126.7 309.2C138.5 322.4 158.7 323.7 171.9 312C212.8 275.9 265.4 256 320 256s107.3 19.88 148.1 56C474.2 317.4 481.8 320 489.3 320c8.844 0 17.66-3.656 24-10.81C525 295.9 523.8 275.7 510.5 264C457.9 217.6 390.3 191.1 320 191.1zM630.2 156.7C546.3 76.28 436.2 32 320 32S93.69 76.28 9.844 156.7c-12.75 12.25-13.16 32.5-.9375 45.25c12.22 12.78 32.47 13.12 45.25 .9375C125.1 133.1 220.4 96 320 96s193.1 37.97 265.8 106.9C592.1 208.8 600 211.8 608 211.8c8.406 0 16.81-3.281 23.09-9.844C643.3 189.2 642.9 168.1 630.2 156.7z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               Remote Ok
+                                           </span>
+       
+                                       </p>
+                                   </div>
+       
+                               </div>
+       
+                               <div class="mt-4">
+                                   <button class="location-apply-btn px-4 py-2 me-3">Apply</button>
+                               </div>
+                               
+                          </div>
+                    
+                </div>
+
+                <div>
+
+                    <div>
+                        <h4 class="gift-text">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="location-logo" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                            </span>
+
+                            <span class="location ms-3">
+                                New York, NY
+                            </span>
+
+                         </h4>
+                    </div>
+
+                    <div class="d-flex justify-content-between project-manager mt-4">
+
+                            <div class="py-2 px-3">
+                                   <h5>Project Manager</h5>
+       
+                                   <div class="d-flex text-secondary">
+                                       <p>
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="11px" height="16px" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               New York, NY
+                                           </span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="18px" viewBox="0 0 384 512"><path d="M336 0C362.5 0 384 21.49 384 48V464C384 490.5 362.5 512 336 512H240V432C240 405.5 218.5 384 192 384C165.5 384 144 405.5 144 432V512H48C21.49 512 0 490.5 0 464V48C0 21.49 21.49 0 48 0H336zM64 272C64 280.8 71.16 288 80 288H112C120.8 288 128 280.8 128 272V240C128 231.2 120.8 224 112 224H80C71.16 224 64 231.2 64 240V272zM176 224C167.2 224 160 231.2 160 240V272C160 280.8 167.2 288 176 288H208C216.8 288 224 280.8 224 272V240C224 231.2 216.8 224 208 224H176zM256 272C256 280.8 263.2 288 272 288H304C312.8 288 320 280.8 320 272V240C320 231.2 312.8 224 304 224H272C263.2 224 256 231.2 256 240V272zM80 96C71.16 96 64 103.2 64 112V144C64 152.8 71.16 160 80 160H112C120.8 160 128 152.8 128 144V112C128 103.2 120.8 96 112 96H80zM160 144C160 152.8 167.2 160 176 160H208C216.8 160 224 152.8 224 144V112C224 103.2 216.8 96 208 96H176C167.2 96 160 103.2 160 112V144zM272 96C263.2 96 256 103.2 256 112V144C256 152.8 263.2 160 272 160H304C312.8 160 320 152.8 320 144V112C320 103.2 312.8 96 304 96H272z"/></svg>
+                                           </span>
+       
+                                           <span>Full-Time</span>
+                                       </p>
+       
+                                       <p class="ms-3">
+                                           <span>
+                                               <svg xmlns="http://www.w3.org/2000/svg" width="19px" height="16px" viewBox="0 0 640 512"><path d="M319.1 351.1c-35.35 0-64 28.66-64 64.01s28.66 64.01 64 64.01c35.34 0 64-28.66 64-64.01S355.3 351.1 319.1 351.1zM320 191.1c-70.25 0-137.9 25.6-190.5 72.03C116.3 275.7 115 295.9 126.7 309.2C138.5 322.4 158.7 323.7 171.9 312C212.8 275.9 265.4 256 320 256s107.3 19.88 148.1 56C474.2 317.4 481.8 320 489.3 320c8.844 0 17.66-3.656 24-10.81C525 295.9 523.8 275.7 510.5 264C457.9 217.6 390.3 191.1 320 191.1zM630.2 156.7C546.3 76.28 436.2 32 320 32S93.69 76.28 9.844 156.7c-12.75 12.25-13.16 32.5-.9375 45.25c12.22 12.78 32.47 13.12 45.25 .9375C125.1 133.1 220.4 96 320 96s193.1 37.97 265.8 106.9C592.1 208.8 600 211.8 608 211.8c8.406 0 16.81-3.281 23.09-9.844C643.3 189.2 642.9 168.1 630.2 156.7z"/></svg>
+                                           </span>
+       
+                                           <span>
+                                               Remote Ok
+                                           </span>
+       
+                                       </p>
+                                   </div>
+       
+                               </div>
+       
+                               <div class="mt-4">
+                                   <button class="location-apply-btn px-4 py-2 me-3">Apply</button>
+                               </div>
+                               
+                          </div>
+                    
+                </div>
+
+         </div>
+
+
+        <div class="container">
+             <hr>
+
+             <div class="certified-section m-auto my-5">
+                 <h1 class="text-center">Our Leadership Team</h1>
+
+                 <div class="my-5">
+
+                    <div class="row g-3 pb-5">
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <img src="./images/team-Steven Rivera.jpg" width="125px" height="125px" class="rounded-pill" alt="">
+
+                            <div class="mt-3">
+                                <h6 class="gift-text">Steven Rivera</h6>
+                                <small class="text-secondary">VP of Operations</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                 </div>
+             </div>
+         </div>
+
+   </section>
+
+
+   <section class="container certified-section m-auto my-5">
+
+        <div class="row g-3 py-4 text-center">
+
+            <div class="col-md-4">
+
+                <div class="card text-center" style="width: 100%;">
+                    <div class="text-center pt-5 pb-2">
+                        <img src="./images/Image from iOS.jpg" width="100px" height="100px" class="rounded-pill" alt="...">
+                    </div>
+                    <div class="card-body pb-4">
+                      <h5 class="card-title">Benny Campa</h5>
+                      <p class="card-text">Director of Product Design</p>
+                      
+                      <small class="text-secondary">“ Scentbird is such a fulfilling experience! To work alongside Mariya, CEO & Sergei, CPO, has been so rewarding. There’s opportunity to create new & exciting experiences for the brand that are happening, in real time. It’s a designers dream come true! ”</small>
+
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card text-center" style="width: 100%;">
+                    <div class="text-center pt-5 pb-2">
+                        <img src="./images/Image from iOS.jpg" width="100px" height="100px" class="rounded-pill" alt="...">
+                    </div>
+                    <div class="card-body pb-4">
+                      <h5 class="card-title">Benny Campa</h5>
+                      <p class="card-text">Director of Product Design</p>
+                      
+                      <small class="text-secondary">“ Scentbird is such a fulfilling experience! To work alongside Mariya, CEO & Sergei, CPO, has been so rewarding. There’s opportunity to create new & exciting experiences for the brand that are happening, in real time. It’s a designers dream come true! ”</small>
+
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card text-center" style="width: 100%;">
+                    <div class="text-center pt-5 pb-2">
+                        <img src="./images/Image from iOS.jpg" width="100px" height="100px" class="rounded-pill" alt="...">
+                    </div>
+                    <div class="card-body pb-4">
+                      <h5 class="card-title">Benny Campa</h5>
+                      <p class="card-text">Director of Product Design</p>
+                      
+                      <small class="text-secondary">“ Scentbird is such a fulfilling experience! To work alongside Mariya, CEO & Sergei, CPO, has been so rewarding. There’s opportunity to create new & exciting experiences for the brand that are happening, in real time. It’s a designers dream come true! ”</small>
+
+                    </div>
+                  </div>
+
+            </div>
+
+        </div>
+
+   </section>
+
+   <section class="certified-section-bg py-5">
+        <div class="text-center">
+            <a href="" class="text-decoration-none">
+                <img src="./images/glassdor.png" width="292px" height="114px" alt="">
+            </a>
+        </div>
+   </section>
+
+   <section class="carrers-footer-bg py-5">
+        <div class="text-center">
+            <small class="text-light">Powered by <span class="carrers-footer-text ms-2">breezy</span></small>
+        </div>
+   </section>
+
+
+
+    <!--Bootstrap Scriptsheet  -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
