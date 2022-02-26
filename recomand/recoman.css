@@ -1075,3 +1075,27 @@ body{
         text-align: center;
     }
 }
+
+
+/* Empoloyes page */
+
+.employee-sign-in{
+    width: 500px;
+    height: 400px;
+    background-color: #f9fafa;
+    border-top: 9px solid #e8bab3;
+}
+.employees-input{
+   height: 45px;
+}
+.employee-email-btn{
+    border: none;
+    background-color: #666;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.employee-email-btn:hover{
+    background-color: #e8bab3;
+}
