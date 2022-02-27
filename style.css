@@ -165,6 +165,7 @@ body{
 .create-account{
     background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/female_dad7cd.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 404px;
 }
@@ -182,6 +183,7 @@ body{
 /* footer socail icon */
 .social-icon svg{
     width: 30px;
+    height: 30px;
 }
 .social-icon svg:hover{
     transition: 0.5s;
