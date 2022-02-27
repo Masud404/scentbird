@@ -271,7 +271,6 @@ body{
 .flower-text p{
     padding-top: 5px;
     color: white;
-    opacity: .9;
     font-weight: 600;
 }
 .show-all-btn{
@@ -1079,11 +1078,22 @@ body{
 
 /* Empoloyes page */
 
+.employes-section-bg{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 .employee-sign-in{
     width: 500px;
     height: 400px;
     background-color: #f9fafa;
     border-top: 9px solid #e8bab3;
+    margin-top: 50px;
 }
 .employees-input{
    height: 45px;

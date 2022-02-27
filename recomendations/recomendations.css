@@ -26,6 +26,42 @@ body{
     color: #ff408e!important;
 }
 
+.recomendations-bg{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/off50_8aad96.jpg");
+    width: 100%;
+    height: 553px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.update-payment-section{
+    margin-top: 170px;
+    max-width: 460px;
+}
+
+.update-payment h1{
+    font-weight: 600;
+}
+.update-payment-btn{
+    border: none;
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.update-payment-btn:hover{
+    background-color: #ff5fa0;
+    transition: 0.9s;
+}
+
+.authentic-brand{
+    width: 1064px;
+    background-color: white;
+    margin-top: -33px;
+}
+.get{
+    background-color: #f9f9f9;
+}
 
 .treanding-page-bg{
     background-color: #f9f9f9;
@@ -60,7 +96,7 @@ body{
 }
 .shipment-product-card{
     width: 100%;
-    height: 180px;
+    height: 150px;
 }
 .recommendation-quiz{
     text-decoration: none;
