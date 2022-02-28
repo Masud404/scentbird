@@ -964,18 +964,93 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .blog-carousel-text{
     background-color: #141414;
     opacity: 0.8;
     color: white;
 }
+
 .blog-carousel{
     padding-top: 370px;
 }
+
 .carousel-icons{
     background-color: #af6929;
     border-radius: 100%;
 }
+.blog-carosel-product-bg{
+    background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+    width: 100%;
+    height: 246px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-carosel-product-spot{
+    background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+    width: 100%;
+    height: 246px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-carosel-product-l{
+    background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+    width: 100%;
+    height: 246px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-carosel-product-q{
+    background-image: url("https://i0.wp.com/www.scentbird.com/blog/wp-content/uploads/2022/02/leather-cologne-collection-scentbird.jpg?fit=1170%2C1170&ssl=1");
+    width: 100%;
+    height: 246px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-carousel-product{
+    padding-top: 137px;
+}
+
+.new-blog-text{
+    text-decoration: none;
+    color: #af6929;
+}
+
+.new-blog-text h6{
+    font-weight: 600;
+}
+
+.new-blog-text h6:hover{
+    color: #af6929;
+}
+
+.bolg-underline{
+    border: 1px solid #c76306;
+}
+.blog-articel:hover{
+    color: #af6929;
+}
+.blog-articel-text:hover{
+    color: #af6929!important;
+}
+.blog-read-more-btn{
+    border: none;
+    background-color: #C7a17f;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+
 
 
 /* carrers page */
