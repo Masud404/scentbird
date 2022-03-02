@@ -754,10 +754,70 @@ body{
  .masculine-btn:hover{
      background-color: rgb(139, 139, 139);
  }
- .mascu-femini-btn{
-     margin-top: 380px;
- }
 
+
+ /* quez page 01 */
+
+ .back-btn-icon{
+     display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding-right: 2px;
+    cursor: pointer;
+    color: #141414;
+    background: #fff;
+    border-radius: 100%;
+ }
+.page-number{
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+}
+.choose-sopticat-bg{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/sophisticated-male_26cff2.jpg");
+    width: 100%;
+    height: 528px;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.choose-items{
+    max-width: 276px;
+    margin-top: 200px;
+}
+.quez-f{
+    position: relative;
+}
+.choose-or{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+    background: #141414;
+    border-radius: 36px;
+    color: white;
+    font-weight: 700;
+    margin-left: -18px;
+    margin-top: -166px;
+}
+
+/* quez 02 */
+
+.casual-items-men{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/easy-going-casual_0d8fc3.jpg");
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.casual-text{
+    max-width: 127px;
+    /* margin-top: 30px; */
+}
 
  /* Help line page */
 
