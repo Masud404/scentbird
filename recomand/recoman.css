@@ -993,6 +993,9 @@ body{
 
 /* Blog page */
 
+.blog-page-bg{
+    background-color: white;
+}
 .blog-header-bg{
     background-color: #141414;
 }
@@ -1096,7 +1099,7 @@ body{
 }
 
 .bolg-underline{
-    border: 1px solid #c76306;
+    border-bottom: 2px solid #af6929;
 }
 .blog-articel:hover{
     color: #af6929;
@@ -1111,8 +1114,57 @@ body{
     font-weight: 600;
     font-size: 13px;
 }
+.blog-input-search{
+    width: 260px;
+    height: 45px;
+    border-radius: 0% !important;
+}
+.blog-input-search:focus{
+    box-shadow: none !important;
+    border: 1px solid #ced4da !important;
+}
+.blog-submit-input{
+    border: none ;
+    height: 45px;
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+.blog-submit-input:hover{
+    background-color: #b79567;
+    color: white;
+    transition: 0.5s;
+}
+.blog-social-icons{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    border: 1px solid #f1f1f1;
+}
+.blog-social-icons:hover{
+    background-color: #af6929;
+    border: 1px solid #af6929;
+}
+.blog-footer-icon:hover{
+    color: #b79567 !important;
+}
+.pagination-number:focus{
+    box-shadow: none !important;
+}
+.pagination-active{
+    background-color: #af6929;
+    color: white !important;
+}
+.pagination-active:hover{
+    box-shadow: none !important;
+    color: gray !important;
+}
 
 
+@media only screen and (max-width: 700px) {
+    .blog-input-search{
+        width: 220px;
+    }
+}
 
 
 
