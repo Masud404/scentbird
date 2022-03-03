@@ -1299,3 +1299,25 @@ body{
 .employee-email-btn:hover{
     background-color: #e8bab3;
 }
+
+/* products page review */
+
+.cathrine-perfume{
+    background-color: white;
+}
+.cathrine-perfume-drem{
+    color: black;
+}
+.cathrine-perfume-drem:hover{
+    color: #ff408e;
+    cursor: pointer;
+}
+.cat-perfumes-info{
+    max-width: 488px;
+}
+.brand-ratting-star{
+    color: #ff408e;
+}
+.cathrine-perfume-price{
+    color: #ff408e;
+}
