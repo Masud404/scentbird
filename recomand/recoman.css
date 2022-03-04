@@ -506,6 +506,9 @@ body{
 .monthly-subscriptions{
     margin-top: -185px;
 }
+.choose-btn-subscrip:focus{
+    box-shadow: none !important;
+}
 .chose-num{
     width: 24px;
     height: 24px;
@@ -1319,5 +1322,25 @@ body{
     color: #ff408e;
 }
 .cathrine-perfume-price{
+    color: #ff408e;
+}
+.cathrine-perfume-btn{
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.cathrine-perfume-btn:hover{
+    border: 1px solid #ff408e;
+}
+.cathrine-perfume-btn:focus{
+    border: 2px solid #ff408e;
+}
+.cathrine-monthly-btn{
+    width: 50%;
+}
+.learn-more-modal{
+    font-weight: 600;
+    color: #ff408e;
+}
+.learn-more-modal:hover{
     color: #ff408e;
 }
