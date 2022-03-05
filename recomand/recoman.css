@@ -1347,3 +1347,34 @@ body{
 .cathrine-perfume-card{
     cursor: pointer;
 }
+.customer-ratting-types{
+    width: 100%;
+    height: 162px;
+    cursor: pointer;
+    outline: none;
+}
+.customer-ratting-types:hover{
+    box-shadow: 0px 15px 40px gray !important;
+    transition: 0.3s all;
+}
+.customer-ratting-text:focus{
+    color: #ff408e;
+}
+.customer-ratting-types:focus{
+    border: 1px solid #ff408e;
+}
+.ratting-progressbar{
+    background-color: #ff408e;
+}
+.write-review{
+    width: 100%;
+    background-color: white;
+}
+.review-devied-line{
+    display: flex;
+    flex-basis: 1px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: stretch;
+    background-color: #dadada;
+}
