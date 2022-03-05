@@ -975,6 +975,10 @@ body{
 
 /* fragrance pages */
 
+.fragrance-page-bg{
+    background-color: #f9f9f9;
+}
+
 .upgrade-product-btn{
     border: none;
     background-color: #ff408e;
@@ -1247,6 +1251,10 @@ body{
 
 /* gift subscription page */
 
+.gift-subscription-text{
+    max-width: 475px;
+}
+
 .subscription-header{
     background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/vd-desctop_4e5f6d.jpg");
     background-repeat: no-repeat;
@@ -1278,7 +1286,9 @@ body{
     background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/background_9b1af4.jpg");
     background-repeat: no-repeat;
     width: 100%;
-    height: 550px;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
 }
 
 
