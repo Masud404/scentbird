@@ -866,6 +866,9 @@ body{
 
 
 /* Featured Brand page */
+.fetured-brand-page{
+    background-color: #f9f9f9;
+}
 
 .add-queue-btn{
     width: 300px;
@@ -1100,7 +1103,9 @@ body{
 }
 
 /* perfume monthly page */
-
+.perfume-month-bg{
+    background-color: #f9f9f9;
+}
 .perfume-logo img{
     width: 25%;
 }
@@ -1186,6 +1191,9 @@ body{
 }
 
 /* all gifts page */
+.all-gifts-page{
+    background-color: #f9f9f9;
+}
 .gift-text{
     font-weight: 600;
 }
@@ -1293,6 +1301,9 @@ body{
 
 
 /* my queue page*/
+.my-queue-bg{
+    background-color: #f9f9f9;
+}
 .carosel-perivious-btn{
     background-color: #ff408e;
     border-radius: 100%;
@@ -1339,6 +1350,10 @@ body{
 
 /* Tracking page */
 
+.traking-background{
+    background-color: #f9f9f9;
+}
+
 .traking-page-bg{
    background-color: white;
 }
@@ -1349,16 +1364,18 @@ body{
 .delivery-options:hover{
     color: #ff408e;
 }
-.recomend-product-card{
+
+/* .recomend-product-card{
     box-shadow: 0 4px 32px rgba(62,18,35,.2);
-    /* z-index: 0; */
+    z-index: 0;
     transition: 0.3s all;
 }
 .recomend-product-card:hover{
     box-shadow: 0px 5px 40px gray;
     transition: 0.3s all;
     cursor: pointer;
-}
+} */
+
 .add-cart-btn{
     background-color: #ff408e;
     color: white;
@@ -1713,7 +1730,9 @@ body{
 
 
 /* For Press page */
-
+.for-press-page{
+    background-color: #f9f9f9;
+}
 .for-press{
     background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/bg-desktop_c1e974.jpg");
     width: 100%;
@@ -2073,7 +2092,9 @@ body{
 }
 
 /* products page review */
-
+.cathrine-page-bg{
+    background-color: #f9f9f9;
+}
 .cathrine-perfume{
     background-color: white;
 }
