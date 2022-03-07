@@ -2327,3 +2327,46 @@ body{
     color: #ff408e;
     font-weight: 600;
 }
+
+
+/* reviews page */
+.review-page-bg{
+    background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/background_1ee208.jpg");
+    width: 100%;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.look-reviews{
+    padding-top: 300px;
+}
+
+.look-reviews-text{
+    color: #ff408e;
+}
+
+.video-review-section{
+    background-color: #f9f9f9;
+}
+
+.video-review-text{
+    color: black;
+}
+.video-review-text:hover{
+    color: #ff408e;
+}
+.review-next-btn {
+    border: 1px solid #ff408e;
+    width: 350px;
+    padding: 16px 0px;
+    color: #ff408e;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: white;
+}
+.review-next-btn:hover{
+    background-color: #ff408e;
+    color: white;
+}
