@@ -872,6 +872,12 @@ body{
     color: #ff408e;
 }
 
+@media only screen and (max-width: 1000px) {
+    .product-img{
+        width: 100px;
+    }
+}
+
 
 /* All Brand page */
 
@@ -2054,6 +2060,7 @@ body{
 }
 
 /* products page review */
+
 .cathrine-page-bg{
     background-color: #f9f9f9;
 }
@@ -2087,7 +2094,7 @@ body{
     border: 2px solid #ff408e;
 }
 .cathrine-monthly-btn{
-    width: 50%;
+    width: 100%;
 }
 .learn-more-modal{
     font-weight: 600;
@@ -2130,7 +2137,29 @@ body{
     align-self: stretch;
     background-color: #dadada;
 }
+.ratting-point{
+    font-size: 56px;
+    font-weight: 700;
+}
 
+.review-filter-input select:focus{
+    box-shadow: none !important;
+    border: 1px solid gray;
+}
+
+.review-button-tag{
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.review-button-tag:focus{
+    border: 2px solid #ff408e;
+}
+
+@media only screen and (max-width: 700px) {
+    .review-filter-input{
+        width: 50%;
+    }
+}
 
 /* shipment css */
 
