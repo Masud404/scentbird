@@ -1892,6 +1892,8 @@ body{
 }
 .brand-ratting-star{
     color: #ff408e;
+    width: 17px;
+    height: 17px;
 }
 .cathrine-perfume-price{
     color: #ff408e;
@@ -2459,4 +2461,19 @@ body{
 .small-img-button{
     border: none;
     padding: 0;
+}
+.small-img-button:focus{
+    border: 1px solid #9b9b9b;
+}
+.reply-product-svg{
+    width: 30px;
+    height: 30px;
+}
+.review-small-img{
+    width: 51px;
+    height: 51px;
+}
+.product-badge{
+    width: 70px;
+    height: 48px;
 }
