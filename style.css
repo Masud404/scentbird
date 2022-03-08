@@ -65,12 +65,12 @@ body{
     cursor: pointer;
 }
 
-.chose-num{
+/* .chose-num{
     width: 24px;
     height: 24px;
     border: 1px solid #dddd;
     border-radius: 50%;
-}
+} */
 
 .get-disscount{
     color: black;
@@ -159,7 +159,7 @@ body{
     padding: 16px 0px;
     color: #ff408e;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     background-color: #f9f9f9;
 }
 .view-more-button:hover{
@@ -388,6 +388,7 @@ body{
     color: #ff408e;
     font-weight: 600;
 }
+
 .add-cart-btn{
     background-color: #ff408e;
     color: white;
@@ -399,10 +400,12 @@ body{
     background-color: #ff5fa0;
     transition: 0.9s;
 }
+
 .shipment-product-card{
     width: 100%;
     height: 150px;
 }
+
 .recommendation-quiz{
     text-decoration: none;
     color: black;
@@ -413,6 +416,7 @@ body{
 .recommendation-quiz h1:hover{
     color: #ff408e;
 }
+
 .add-plus:hover{
     color: #ff408e;
     cursor: pointer;
@@ -446,10 +450,12 @@ body{
 .rated-product-name{
     width: 130px;
 }
-.rated-star{
-    font-size: 10px;
+
+.rated-star-venta{
+    font-size: 12px;
     color: #ff408e;
 }
+
 .rated-add-btn button{
     border: 1px solid #ff408e;
     background-color: white;
@@ -581,13 +587,13 @@ body{
     color: #ff408e;
 }
 
-.product-item img{
+/* .product-item img{
     width: 40px;
     margin-left: 5px;
-}
+} */
 
 /* view more button */
-.view-more{
+/* .view-more{
     text-align: center;
 }
 .view-more button{
@@ -602,10 +608,11 @@ body{
 .view-more button:hover{
     background-color: #ff408e;
     color: white;
-}
+} */
 
 
 /* new-page */
+
 .new-page-bg{
     background-color: #f9f9f9;
 }
@@ -877,6 +884,7 @@ body{
 }
 
 /* perfume monthly page */
+
 .perfume-month-bg{
     background-color: #f9f9f9;
 }
@@ -896,11 +904,13 @@ body{
 .isabel-orana-text{
     font-weight: 600;
 }
-.shipment-product-card{
+
+/* .shipment-product-card{
     width: 100%;
     height: 180px;
-}
-.add-plus:hover{
+} */
+
+/* .add-plus:hover{
     color: #ff408e;
     cursor: pointer;
 }
@@ -916,7 +926,8 @@ body{
 }
 .recommendation-quiz h1:hover{
     color: #ff408e;
-}
+} */
+
 .edit-address{
     color: #ff408e;
     font-weight: 600;
@@ -1058,12 +1069,14 @@ body{
 .choose-btn-subscrip:focus{
     box-shadow: none !important;
 }
+
 .chose-num{
     width: 24px;
     height: 24px;
     border: 1px solid #dddd;
     border-radius: 50%;
 }
+
 .subscription-bottom-bg{
     background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/background_9b1af4.jpg");
     background-repeat: no-repeat;
@@ -1140,7 +1153,7 @@ body{
 }
 
 
-.add-cart-btn{
+/* .add-cart-btn{
     background-color: #ff408e;
     color: white;
     font-weight: 600;
@@ -1150,7 +1163,9 @@ body{
 .add-cart-btn:hover{
     background-color: #ff5fa0;
     transition: 0.9s;
-}
+} */
+
+
 .add-all-button{
     background-color: #ff408e;
     color: white;
@@ -1255,12 +1270,14 @@ body{
 .friends-work-bg{
     background-color: white;
  }
-.chose-num{
+
+.chose-num-friends{
     width: 30px;
     height: 30px;
     border: 2px solid black;
     border-radius: 50%;
 } 
+
 .program-num{
     background-image: url("https://cdn.scentbird.com/assets/frontbird-site/images/perfume_5f682e.jpg");
     width: 100%;
@@ -1951,6 +1968,21 @@ body{
     border: 2px solid #ff408e;
 }
 
+.customer-review{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-image: linear-gradient(45deg, rgb(249, 194, 255), rgb(194, 255, 228));
+}
+
+.customer-review-text{
+    color: #141414;
+    font-weight: 600;
+}
+.customer-review-text:hover{
+    border-bottom: 1px solid black;
+}
+
 @media only screen and (max-width: 700px) {
     .review-filter-input{
         width: 50%;
@@ -1994,7 +2026,8 @@ body{
 .shipment-input{
     box-shadow: none!important;
 }
-.amazon-payment-btn{
+
+/* .amazon-payment-btn{
     background-color: #fad676;
     width: 300px;
     border: none;
@@ -2019,7 +2052,7 @@ body{
 .payment-submit input:hover{
     background-color: #ff5fa0;
     transition: 0.9s;
-}
+} */
 
 
 
@@ -2393,4 +2426,33 @@ body{
 .review-next-btn:hover{
     background-color: #ff408e;
     color: white;
+}
+.review-reply-button{
+    border: none;
+    background-color: #f9f9f9;
+    color: #9b9b9b;
+    font-weight: 500;
+}
+.reply-textarea{
+    width: 100%;
+    height: 120px;
+    box-shadow: none!important;
+}
+.reply-textarea:focus{
+    border: 1px solid #ced4da;
+}
+.review-reply-btn{
+    border: none;
+    background-color: #ff408e;
+    color: white;
+    font-weight: 600;
+}
+.review-cancel-btn{
+    border: none;
+    background-color: #f9f9f9;
+    color: #6d6d6d;
+    font-weight: 600;
+}
+.review-cancel-btn:hover{
+    background-color: rgb(243, 255, 254);
 }
