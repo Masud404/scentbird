@@ -2456,3 +2456,7 @@ body{
 .review-cancel-btn:hover{
     background-color: rgb(243, 255, 254);
 }
+.small-img-button{
+    border: none;
+    padding: 0;
+}
