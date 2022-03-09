@@ -1,9 +1,7 @@
 
 /* font family */
 body{
-    font-family: proxima-nova, sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -1918,6 +1916,36 @@ body{
     color: #666;
     font-weight: 600;
 }
+
+.card-parent {
+    position: relative;
+}
+.card-tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.full-image {
+    position: relative;
+  }
+  .full-image .card-badges {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100px;
+  }
+  .card-level{
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-height: 100px;
+  }
+  .product-details-text{
+      font-size: 16px;
+      font-weight: 400;
+  }
+
 .cathrine-perfume-btn{
     border: 1px solid #dadada;
     background-color: white;
@@ -1926,7 +1954,7 @@ body{
     border: 1px solid #ff408e;
 }
 .cathrine-perfume-btn:focus{
-    border: 2px solid #ff408e;
+    outline: 2px solid #ff408e !important;
 }
 .cathrine-monthly-btn{
     width: 100%;
@@ -1952,10 +1980,10 @@ body{
     transition: 0.3s all;
 }
 .customer-ratting-text:focus{
-    color: #ff408e;
+    color: #ff408e !important;
 }
 .customer-ratting-types:focus{
-    border: 1px solid #ff408e;
+    outline: 1px solid #ff408e;
 }
 .ratting-progressbar{
     background-color: #ff408e;
@@ -2493,7 +2521,7 @@ body{
     padding: 0;
 }
 .small-img-button:focus{
-    border: 1px solid #9b9b9b;
+    outline: 1px solid #9b9b9b !important;
 }
 .reply-product-svg{
     width: 30px;

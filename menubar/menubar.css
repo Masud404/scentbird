@@ -1,0 +1,54 @@
+
+li.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-gift-list{
+    background-color: #212529 !important;
+}
+.gift-items-name{
+    color: #cecece !important;
+    font-size: 16px;
+}
+.gift-items-list {
+    font-size: 12px;
+    color: #cecece !important;
+}
+.gift-items-list:hover{
+    background-color: #212529 !important;
+    color: white !important;
+    transition: 0.3s all;
+}
+.gift-items-list:active{
+    background-color: none !important;
+}
+.how-work-page{
+    background-color: #f7e1e0;
+    color: #cc3633;
+}
+.offcanvas-subscription-btn{
+    width: 100%;
+    background-color: #cc3633;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.offcanvas-login-btn{
+    width: 100%;
+    color: #cc3633;
+    background-color: white;
+    border: 1px solid #cc3633;
+    font-weight: 600;
+    font-size: 20px;
+}
+.offcanvas-login-btn:hover{
+    background-color: #cc3633;
+    color: white;
+}
+.offcanvas-download-btn{
+    border: none;
+    background-color: #cc3633;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+}
