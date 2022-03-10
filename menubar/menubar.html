@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,176 +14,235 @@
 </head>
 
 <body>
+  <!-- mobile menubar -->
+  <div class="d-block d-sm-none">
+
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
   
-  <nav class="navbar d-block d-sm-none navbar-dark bg-dark">
-    <div class="container">
-
-      <button class="border-0 text-light bg-dark"
-      data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
-      >
-        <span class="navbar-toggler-icon fs-3 ms-3"></span>
-      </button>
-
-        <!-- offcanvas -->
-          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-              <div class="text-end mt-2 me-3">
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-
-               <div class="offcanvas-body px-0 pb-5">
-
-                  <a href="" class="text-decoration-none text-dark">
-                    <div class="d-flex ps-4">
-                    
-                      <div>
-                        <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
-                      </div>
-    
-                      <div>
-                         <h3 class="ms-4 mt-2">Home</h3>
-                      </div>
-                    </div>
-                  </a>
+        <button class="border-0 text-light bg-dark"
+        data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
+        >
+          <span class="navbar-toggler-icon fs-3 ms-3"></span>
+        </button>
   
-                  <a href="" class="text-decoration-none text-dark">
-                    <div class="d-flex mt-3 ps-4 py-3 how-work-page">
-                    
-                      <div>
-                        <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
-                      </div>
-    
-                      <div>
-                         <h3 class="ms-4 mt-2">How it works</h3>
-                      </div>
-                    </div>
-                  </a>
-  
-                  <a href="" class="text-decoration-none text-dark">
-                    <div class="d-flex mt-3 ps-4 py-3">
-                    
-                      <div>
-                        <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
-                      </div>
-    
-                      <div>
-                         <h3 class="ms-4 mt-2">Fragness recomendations</h3>
-                      </div>
-                    </div>
-                  </a>
-  
-                  <a href="" class="text-decoration-none text-dark">
-                    <div class="d-flex mt-3 ps-4 py-3">
-                    
-                      <div>
-                        <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
-                      </div>
-    
-                      <div>
-                         <h3 class="ms-4 mt-2">Blog</h3>
-                      </div>
-                    </div>
-                  </a>
-  
-                  <a href="" class="text-decoration-none text-dark">
-                    <div class="d-flex mt-3 ps-4 py-3">
-                    
-                      <div>
-                        <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
-                      </div>
-    
-                      <div>
-                         <h3 class="ms-4 mt-2">About secntbird</h3>
-                      </div>
-                    </div>
-                  </a>
-  
-                  <a href="" class="text-decoration-none text-dark">
-                    <div class="d-flex mt-3 ps-4 py-3">
-                    
-                      <div>
-                        <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
-                      </div>
-    
-                      <div>
-                         <h3 class="ms-4 mt-2">Help</h3>
-                      </div>
-                    </div>
-                  </a>
-
-                  <div class="container">
-
-                    <div class="text-center mt-5">
-                      <button class="offcanvas-subscription-btn py-3">Subscribe for just $15.95/month</button>
-
-                      <button class="offcanvas-login-btn py-3 mt-3">Login</button>
-                    </div>
-
-                    <a href="" class="text-decoration-none">
-
-                      <div class="d-flex justify-content-evenly bg-light text-dark px-3 mt-4 py-4">
-
-                        <div>
-                          <svg class="inline-block mt-3" draggable="false" style="width: 38px; height: 38px" viewBox="0 0 32 32"><g fill="currentColor" fill-rule="evenodd"><path d="M9 0h14c5.04 0 9 3.96 9 9v14c0 5.04-3.96 9-9 9H9c-5.04 0-9-3.96-9-9V9c0-5.04 3.96-9 9-9zm14 29c3.35 0 6-2.65 6-6V9c0-3.35-2.65-6-6-6H9a5.96 5.96 0 00-6 6v14c0 3.35 2.65 6 6 6h14z"></path><path d="M8 16a8 8 0 0116 0 8 8 0 01-16 0zm3 0a5 5 0 1010.01-.01A5 5 0 0011 16zM24.5 5.5c-.53 0-1.04.21-1.41.58a2.01 2.01 0 00-.59 1.42 2.02 2.02 0 002 2 2.02 2.02 0 001.42-.58 2.02 2.02 0 00.58-1.42c0-.53-.21-1.04-.58-1.42a2 2 0 00-1.42-.58z"></path></g></svg>
-                        </div>
-
-                        <div class="ps-3">
-                          <p class="fs-3 mb-0" style="font-weight: 600;">Join our instagram comunnity</p>
-                          <small class="fs-5">14000 flowers</small>
-                        </div>
-
-                      </div>
-
-                    </a>
-
-                    <div class="my-4">
-                        <div class="bg-light py-4">
-
-                           <div class="d-flex ps-3">
-
-                              <div>
-                                <p class="fs-2" style="font-weight: 600;">Great news, we have an App!</p>
-                                <small class="fs-6" style="font-weight: 500;">Easily manage your subscription and queue.</small>
-                              </div>
-
-                              <div>
-                                <img src="../recomand/images/mobile.png" style="width: 200px; height: 230px;" alt="">
-                              </div>
-
-                           </div>
-
-                           <div class="my-3 ms-3">
-                            <button class="offcanvas-download-btn py-3 px-4">Download</button>
-                          </div>
-
-                        </div>
-                    </div>
-
-                  </div>
-
+          <!-- offcanvas -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="text-end mt-2 me-3">
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+  
+                 <div class="offcanvas-body px-0 pb-5">
+  
+                    <a href="" class="text-decoration-none text-dark">
+                      <div class="d-flex ps-4">
+                      
+                        <div>
+                          <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
+                        </div>
+      
+                        <div>
+                           <h3 class="ms-4 mt-2">Home</h3>
+                        </div>
+                      </div>
+                    </a>
+    
+                    <a href="" class="text-decoration-none text-dark">
+                      <div class="d-flex mt-3 ps-4 py-3 how-work-page">
+                      
+                        <div>
+                          <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
+                        </div>
+      
+                        <div>
+                           <h3 class="ms-4 mt-2">How it works</h3>
+                        </div>
+                      </div>
+                    </a>
+    
+                    <a href="" class="text-decoration-none text-dark">
+                      <div class="d-flex mt-3 ps-4 py-3">
+                      
+                        <div>
+                          <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
+                        </div>
+      
+                        <div>
+                           <h3 class="ms-4 mt-2">Fragness recomendations</h3>
+                        </div>
+                      </div>
+                    </a>
+    
+                    <a href="" class="text-decoration-none text-dark">
+                      <div class="d-flex mt-3 ps-4 py-3">
+                      
+                        <div>
+                          <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
+                        </div>
+      
+                        <div>
+                           <h3 class="ms-4 mt-2">Blog</h3>
+                        </div>
+                      </div>
+                    </a>
+    
+                    <a href="" class="text-decoration-none text-dark">
+                      <div class="d-flex mt-3 ps-4 py-3">
+                      
+                        <div>
+                          <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
+                        </div>
+      
+                        <div>
+                           <h3 class="ms-4 mt-2">About secntbird</h3>
+                        </div>
+                      </div>
+                    </a>
+    
+                    <a href="" class="text-decoration-none text-dark">
+                      <div class="d-flex mt-3 ps-4 py-3">
+                      
+                        <div>
+                          <svg style="width: 38px; height: 38px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect opacity=".15" x="2" y="3" width="9" height="22" rx="1" fill="currentColor"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M16.298 3.842a.5.5 0 0 0-.596 0l-12.07 8.942a.5.5 0 0 0-.093.714l.75.938a.5.5 0 0 0 .688.09l10.131-7.49a1.5 1.5 0 0 1 1.784 0l10.131 7.49a.5.5 0 0 0 .688-.09l.75-.938a.5.5 0 0 0-.093-.714l-12.07-8.942zm-1.19-.803a1.5 1.5 0 0 1 1.785 0l12.07 8.941a1.5 1.5 0 0 1 .28 2.143l-.751.938a1.5 1.5 0 0 1-2.063.269L25 14.274V26.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 7 26.5V14.274L5.571 15.33a1.5 1.5 0 0 1-2.063-.27l-.75-.938a1.5 1.5 0 0 1 .278-2.142L15.107 3.04zM8 13.534V26.5a.5.5 0 0 0 .5.5H18v-8.5a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1 0-1h4a1.5 1.5 0 0 1 1.5 1.5V27h4.5a.5.5 0 0 0 .5-.5V13.534l-7.703-5.693a.5.5 0 0 0-.594 0L8 13.534z" fill="currentColor"></path></svg>
+                        </div>
+      
+                        <div>
+                           <h3 class="ms-4 mt-2">Help</h3>
+                        </div>
+                      </div>
+                    </a>
+  
+                    <div class="container">
+  
+                      <div class="text-center mt-5">
+                        <button class="offcanvas-subscription-btn py-3">Subscribe for just $15.95/month</button>
+  
+                        <button class="offcanvas-login-btn py-3 mt-3">Login</button>
+                      </div>
+  
+                      <a href="" class="text-decoration-none">
+  
+                        <div class="d-flex justify-content-evenly bg-light text-dark px-3 mt-4 py-4">
+  
+                          <div>
+                            <svg class="inline-block mt-3" draggable="false" style="width: 38px; height: 38px" viewBox="0 0 32 32"><g fill="currentColor" fill-rule="evenodd"><path d="M9 0h14c5.04 0 9 3.96 9 9v14c0 5.04-3.96 9-9 9H9c-5.04 0-9-3.96-9-9V9c0-5.04 3.96-9 9-9zm14 29c3.35 0 6-2.65 6-6V9c0-3.35-2.65-6-6-6H9a5.96 5.96 0 00-6 6v14c0 3.35 2.65 6 6 6h14z"></path><path d="M8 16a8 8 0 0116 0 8 8 0 01-16 0zm3 0a5 5 0 1010.01-.01A5 5 0 0011 16zM24.5 5.5c-.53 0-1.04.21-1.41.58a2.01 2.01 0 00-.59 1.42 2.02 2.02 0 002 2 2.02 2.02 0 001.42-.58 2.02 2.02 0 00.58-1.42c0-.53-.21-1.04-.58-1.42a2 2 0 00-1.42-.58z"></path></g></svg>
+                          </div>
+  
+                          <div class="ps-3">
+                            <p class="fs-3 mb-0" style="font-weight: 600;">Join our instagram comunnity</p>
+                            <small class="fs-5">14000 flowers</small>
+                          </div>
+  
+                        </div>
+  
+                      </a>
+  
+                      <div class="my-4">
+                          <div class="bg-light py-4">
+  
+                             <div class="d-flex ps-3">
+  
+                                <div>
+                                  <p class="fs-2" style="font-weight: 600;">Great news, we have an App!</p>
+                                  <small class="fs-6" style="font-weight: 500;">Easily manage your subscription and queue.</small>
+                                </div>
+  
+                                <div>
+                                  <img src="../recomand/images/mobile.png" style="width: 200px; height: 230px;" alt="">
+                                </div>
+  
+                             </div>
+  
+                             <div class="my-3 ms-3">
+                              <button class="offcanvas-download-btn py-3 px-4">Download</button>
+                            </div>
+  
+                          </div>
+                      </div>
+  
+                    </div>
+  
+                  </div>
+  
+                
+  
+              </div>
+  
+          <div class="d-flex justify-content-around">
+            <a class="navbar-brand pe-5 pt-3" href="#">
+              <img src="../recomand/images/SB_Logo_blog.png" alt="" style="max-height: 50px;">
+            </a>
+  
+            <ul class="navbar-nav me-auto my-2 my-lg-0 text-center">
+              <li class="nav-item pe-5">
+                <a class="nav-link gift-items-name text-light fs-5" href="#">Login</a>
+              </li>
+              </ul>
+          </div>    
+  
+      </div>
+    </nav>
 
-              
+    <div class="mb-3">
 
-            </div>
+      <form action="">
 
-        <div class="d-flex justify-content-around">
-          <a class="navbar-brand pe-5 pt-3" href="#">
-            <img src="../recomand/images/SB_Logo_blog.png" alt="" style="width: 136px; height: 33px;">
-          </a>
+            
+      <input type="text" data-bs-toggle="collapse"
+      data-bs-target="#collapseExamplereview"
+      aria-expanded="false"
+      aria-controls="collapseExample"
+      class="form-control py-3 review-search-input fs-4"
+      placeholder="Search"
+      aria-label="Recipient's username"
+     aria-describedby="basic-addon2">
 
-          <ul class="navbar-nav me-auto my-2 my-lg-0 text-center">
-            <li class="nav-item pe-5">
-              <a class="nav-link gift-items-name" href="#">LOGIN</a>
-            </li>
-            </ul>
-        </div>    
+     <div class="text-end">
+       <svg xmlns="http://www.w3.org/2000/svg" class="review-search-icon me-3" viewBox="0 0 512 512"><path fill="gray" d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg>
+     </div>
+       
+     <div class="collapse" id="collapseExamplereview">
+       <div class="card card-body border-0 shadow-sm">
 
-    </div>
-  </nav>
+        <a href="" class="ps-5 text-decoration-none">
 
+            <span class="review-input-text">
+                <span class="mb-0 fs-5 text-dark">Need ideas?</span><br>
+                <span class="fs-2" style="color: hotpink;">Fragness Collection</span>
+            </span>
 
+        </a>
 
-    <nav class="navbar d-none d-md-block navbar-expand-lg navbar-dark bg-dark">
+        <a href="" class="ps-5 text-decoration-none pt-5">
+
+            <span class="review-input-text">
+                <span class="mb-0 fs-5 text-dark">Need ideas?</span><br>
+                <span class="fs-2" style="color: hotpink;">Fragness Collection</span>
+            </span>
+
+        </a>
+
+        <a href="" class="ps-5 text-decoration-none py-5">
+
+            <span class="review-input-text">
+                <span class="mb-0 fs-5 text-dark">Need ideas?</span><br>
+                <span class="fs-2" style="color: hotpink;">Fragness Collection</span>
+            </span>
+
+        </a>
+
+       </div>
+     </div>
+
+      </form>
+        
+      </div>
+    
+
+  </div>
+  
+  <!-- dekstop menubar -->
+  <nav class="navbar d-none d-md-block navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
 
           <button
@@ -243,7 +303,7 @@
           </div>
 
         </div>
-      </nav>
+  </nav>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
