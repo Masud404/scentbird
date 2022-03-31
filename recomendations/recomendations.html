@@ -15,7 +15,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aedd1c01b0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -124,18 +124,193 @@
                                     </li>
                                 </ul>
                             </li>
-
+                        <!-- product card offcanvs -->
                             <li>
                                 <svg xmlns="http://www.w3.org/2000/svg"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#productCartOffcanvs" aria-controls="productCartOffcanvs"
+                                style="cursor: pointer;"
                                  class="mt-2" width="21px" height="17px" viewBox="0 0 576 512"><path fill="white" d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"/></svg>
 
                             </li>
-
+                        <!-- product card offcanvs end-->
                         </ul>
                     </div>
                 </div>
             </nav>
+            <!-- product card offcanvs -->
+            <div class="offcanvas offcanvas-end" id="productCartOffcanvs" aria-labelledby="offcanvasRightLabel">
+                <div class="d-flex px-3 py-2 border-bottom">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div style="font-weight: 600; padding-left: 100px;" class="mb-0">3 Items in cart</div>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="offcanvs-product-card">
+                     <div>
+                        <!-- card -->
+                        <div class="position-relative mt-2 mx-2">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center" style="height: 80px; width: 80px; border: 1px solid #e6e6e6;">
+                                        <img style="width:62px ; height: 62px;" src="https://cdn.scentbird.com/product/rebrand/trading_item/vial.png?h=100" alt="">
+                                    </div>
+                                </div>
+                                <div style="width: 100%;" class="ms-3">
+                                    <div>
+                                        <h6 style="font-weight:600;" >GOTHABIT</h6>
+                                        <p class="mb-0" style="font-size: 13px;">Align</p>
+                                        <p style="font-size: 13px;">Eau de Parfum</p>
+                                        
+                                    </div>
+        
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex">
+                                        <button style="width: 26px; height: 26px; background-color: #f1f5f8;" class="border-0 rounded-pill">
+                                            <span class="cart-minus-btn">
+                                                <i class="fa-solid fa-minus"></i>
+                                            </span>
+                                        </button>
+                                        <div class="ms-3">1</div>
+                                        <button style="width: 26px; height: 26px; background-color: #f1f5f8;" class="ms-3 border-0 rounded-pill">
+                                            <span class="cart-minus-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </span>
+                                        </button> 
+                                    </div>
+                                    <div>
+                                        <h6 style="font-weight: 600; font-size: 18px;">$25.65</h6>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+        
+                            <div class="position-absolute top-0 end-0">
+                                <button type="button" class="border-0 bg-white product-close-btn" >
+                                    <span style="font-size: 30px;">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- card end -->
+                        <!-- card -->
+                        <div class="position-relative mt-4 mx-2">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center" style="height: 80px; width: 80px; border: 1px solid #e6e6e6;">
+                                        <img style="width:62px ; height: 62px;" src="https://cdn.scentbird.com/product/rebrand/trading_item/vial.png?h=100" alt="">
+                                    </div>
+                                </div>
+                                <div style="width: 100%;" class="ms-3">
+                                    <div>
+                                        <h6 style="font-weight:600;" >GOTHABIT</h6>
+                                        <p class="mb-0" style="font-size: 13px;">Align</p>
+                                        <p style="font-size: 13px;">Eau de Parfum</p>
+                                        
+                                    </div>
+        
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex">
+                                        <button style="width: 26px; height: 26px; background-color: #f1f5f8;" class="border-0 rounded-pill">
+                                            <span class="cart-minus-btn">
+                                                <i class="fa-solid fa-minus"></i>
+                                            </span>
+                                        </button>
+                                        <div class="ms-3">1</div>
+                                        <button style="width: 26px; height: 26px; background-color: #f1f5f8;" class="ms-3 border-0 rounded-pill">
+                                            <span class="cart-minus-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </span>
+                                        </button> 
+                                    </div>
+                                    <div>
+                                        <h6 style="font-weight: 600; font-size: 18px;">$25.65</h6>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+        
+                            <div class="position-absolute top-0 end-0">
+                                <button type="button" class="border-0 bg-white product-close-btn" >
+                                    <span style="font-size: 30px;">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- card end -->
+                        <!-- card -->
+                        <div class="position-relative mt-4 mx-2">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="d-flex justify-content-center align-items-center" style="height: 80px; width: 80px; border: 1px solid #e6e6e6;">
+                                        <img style="width:62px ; height: 62px;" src="https://cdn.scentbird.com/product/rebrand/trading_item/vial.png?h=100" alt="">
+                                    </div>
+                                </div>
+                                <div style="width: 100%;" class="ms-3">
+                                    <div>
+                                        <h6 style="font-weight:600;" >GOTHABIT</h6>
+                                        <p class="mb-0" style="font-size: 13px;">Align</p>
+                                        <p style="font-size: 13px;">Eau de Parfum</p>
+                                        
+                                    </div>
+        
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex">
+                                        <button style="width: 26px; height: 26px; background-color: #f1f5f8;" class="border-0 rounded-pill">
+                                            <span class="cart-minus-btn">
+                                                <i class="fa-solid fa-minus"></i>
+                                            </span>
+                                        </button>
+                                        <div class="ms-3">1</div>
+                                        <button style="width: 26px; height: 26px; background-color: #f1f5f8;" class="ms-3 border-0 rounded-pill">
+                                            <span class="cart-minus-btn">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </span>
+                                        </button> 
+                                    </div>
+                                    <div>
+                                        <h6 style="font-weight: 600; font-size: 18px;">$25.65</h6>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+        
+                            <div class="position-absolute top-0 end-0">
+                                <button type="button" class="border-0 bg-white product-close-btn" >
+                                    <span style="font-size: 30px;">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- card end -->
+                     </div>
+                    </div>
 
+                    <!-- Total Price -->
+                     <div class="mt-3 mx-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 style="font-weight: 400;">Subtotal</h6>
+                            <h6>$65.85</h6>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h6 style="font-weight: 600;">TOTAL</h6>
+                            <h6 style="font-weight: 600;">$65.85</h6>
+                        </div>
+                        <button class="checkout-btn py-3 mt-3 mb-3">Checkout</button>
+                    </div>
+                    <!-- Total Price end -->
+                    <hr>
+
+                    <div class="text-center">
+                        <p>You now qualify for</p>
+                        <h6 style="color: #ff5fa0; font-weight: 600;">FREE STANDRAD SHIPPING</h6>
+                    </div>
+                </div>
+
+            </div>
+            <!-- product card offcanvs end -->   
         </section>
 
         <!-- searchbar section start-->
@@ -287,7 +462,6 @@
                 </div>
             </div>
         </nav>
-
         <!-- header end -->
     </header>
 

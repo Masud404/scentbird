@@ -2612,3 +2612,31 @@ li.dropdown:hover .dropdown-menu{
 .review-input-text:hover{
     border-bottom: 1px solid black;
 }
+
+
+/* offcanvas cart */
+.cart-minus-btn{
+    color: #a8abad;
+}
+.cart-minus-btn:hover{
+    color: #141414;
+}
+.product-close-btn{
+    color: #ff5fa0;
+}
+.product-close-btn:hover{
+    color: #e6e6e6;
+}
+.offcanvs-product-card{
+    max-height: 350px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #dee2e6;
+}
+.checkout-btn{
+    width: 100%;
+    background-color: #ff5fa0;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
